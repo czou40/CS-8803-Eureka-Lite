@@ -1,0 +1,173 @@
+/Users/chunhaozou/Desktop/drl/envs/cartpole_train_eval.py:7: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  from pkg_resources import parse_requirements
+name: __main__
+Using cpu device
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+/opt/miniconda3/envs/drl/lib/python3.11/site-packages/gymnasium/envs/classic_control/cartpole.py:214: UserWarning: [33mWARN: You are calling 'step()' even though this environment has already returned terminated = True. You should always call 'reset()' once you receive 'terminated = True' -- any further steps are undefined behavior.[0m
+  logger.warn(
+Episode 1 finished with reward: {'angle_reward': 20.796246626456814, 'movement_reward': 214328466765204.3, 'gpt_reward': 214328466765225.1, 'gt_reward': 31.0, 'episode_length': 22.0}
+Episode 2 finished with reward: {'angle_reward': 21.828185945110853, 'movement_reward': 1265963896276059.0, 'gpt_reward': 1265963896276081.0, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 3 finished with reward: {'angle_reward': 22.75669145070451, 'movement_reward': 1.401245478229864e+16, 'gpt_reward': 1.401245478229866e+16, 'gt_reward': 33.0, 'episode_length': 24.0}
+Episode 4 finished with reward: {'angle_reward': 20.832541089257834, 'movement_reward': 124830803635428.98, 'gpt_reward': 124830803635449.81, 'gt_reward': 31.0, 'episode_length': 22.0}
+Episode 5 finished with reward: {'angle_reward': 21.803089450455182, 'movement_reward': 1263338167073999.8, 'gpt_reward': 1263338167074021.5, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 1 finished with reward: {'angle_reward': 21.76382336809906, 'movement_reward': 1579849031471921.5, 'gpt_reward': 1579849031471943.0, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 2 finished with reward: {'angle_reward': 21.89253872443192, 'movement_reward': 1664403955761638.5, 'gpt_reward': 1664403955761660.2, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 3 finished with reward: {'angle_reward': 21.894882398872728, 'movement_reward': 1932429798214344.5, 'gpt_reward': 1932429798214366.2, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 4 finished with reward: {'angle_reward': 21.7357620565406, 'movement_reward': 1014651067858486.2, 'gpt_reward': 1014651067858508.0, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 5 finished with reward: {'angle_reward': 20.77893399640868, 'movement_reward': 97298509871758.0, 'gpt_reward': 97298509871778.78, 'gt_reward': 31.0, 'episode_length': 22.0}
+Episode 1 finished with reward: {'angle_reward': 20.862035535038732, 'movement_reward': 104648333017020.64, 'gpt_reward': 104648333017041.52, 'gt_reward': 31.0, 'episode_length': 22.0}
+Episode 2 finished with reward: {'angle_reward': 20.81027443515201, 'movement_reward': 67539476250889.58, 'gpt_reward': 67539476250910.39, 'gt_reward': 31.0, 'episode_length': 22.0}
+Episode 3 finished with reward: {'angle_reward': 21.7369061536091, 'movement_reward': 1698734389095628.0, 'gpt_reward': 1698734389095649.8, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 4 finished with reward: {'angle_reward': 21.829145472184088, 'movement_reward': 916313672723187.4, 'gpt_reward': 916313672723209.2, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 5 finished with reward: {'angle_reward': 21.72703701276316, 'movement_reward': 2544592815508695.0, 'gpt_reward': 2544592815508717.0, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 1 finished with reward: {'angle_reward': 20.764289539813742, 'movement_reward': 53327544828838.07, 'gpt_reward': 53327544828858.836, 'gt_reward': 31.0, 'episode_length': 22.0}
+Episode 2 finished with reward: {'angle_reward': 22.76580836110309, 'movement_reward': 6.361720832601714e+16, 'gpt_reward': 6.361720832601716e+16, 'gt_reward': 33.0, 'episode_length': 24.0}
+Episode 3 finished with reward: {'angle_reward': 21.78471265165875, 'movement_reward': 3011004632336600.0, 'gpt_reward': 3011004632336622.0, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 4 finished with reward: {'angle_reward': 21.78470856485055, 'movement_reward': 1007047739926526.4, 'gpt_reward': 1007047739926548.1, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 5 finished with reward: {'angle_reward': 21.893297972104754, 'movement_reward': 1860972761578982.0, 'gpt_reward': 1860972761579003.8, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 1 finished with reward: {'angle_reward': 21.819124732125847, 'movement_reward': 3070514420952869.5, 'gpt_reward': 3070514420952891.5, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 2 finished with reward: {'angle_reward': 20.807702639124496, 'movement_reward': 125957510669687.27, 'gpt_reward': 125957510669708.06, 'gt_reward': 31.0, 'episode_length': 22.0}
+Episode 3 finished with reward: {'angle_reward': 22.742010437089263, 'movement_reward': 1.279124643965414e+16, 'gpt_reward': 1.2791246439654162e+16, 'gt_reward': 33.0, 'episode_length': 24.0}
+Episode 4 finished with reward: {'angle_reward': 21.843004456763556, 'movement_reward': 2193134146261191.5, 'gpt_reward': 2193134146261213.2, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 5 finished with reward: {'angle_reward': 21.858202535856403, 'movement_reward': 1627045980314479.2, 'gpt_reward': 1627045980314501.0, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 1 finished with reward: {'angle_reward': 21.76624861546308, 'movement_reward': 1639415776175339.8, 'gpt_reward': 1639415776175361.2, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 2 finished with reward: {'angle_reward': 21.856958224871377, 'movement_reward': 1634084088989700.5, 'gpt_reward': 1634084088989722.2, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 3 finished with reward: {'angle_reward': 20.78093607398233, 'movement_reward': 49553914012559.734, 'gpt_reward': 49553914012580.516, 'gt_reward': 31.0, 'episode_length': 22.0}
+Episode 4 finished with reward: {'angle_reward': 21.7775942426424, 'movement_reward': 1002420012924515.9, 'gpt_reward': 1002420012924537.8, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 5 finished with reward: {'angle_reward': 20.774018399104772, 'movement_reward': 107698529370455.45, 'gpt_reward': 107698529370476.22, 'gt_reward': 31.0, 'episode_length': 22.0}
+Episode 1 finished with reward: {'angle_reward': 20.833037087469283, 'movement_reward': 162756276161644.5, 'gpt_reward': 162756276161665.3, 'gt_reward': 31.0, 'episode_length': 22.0}
+Episode 2 finished with reward: {'angle_reward': 21.740517910044844, 'movement_reward': 1996801163662991.8, 'gpt_reward': 1996801163663013.2, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 3 finished with reward: {'angle_reward': 21.754817760708477, 'movement_reward': 3394265715897175.0, 'gpt_reward': 3394265715897197.0, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 4 finished with reward: {'angle_reward': 20.857660815216057, 'movement_reward': 170373099763416.0, 'gpt_reward': 170373099763436.84, 'gt_reward': 31.0, 'episode_length': 22.0}
+Episode 5 finished with reward: {'angle_reward': 21.80174089481394, 'movement_reward': 3656302715681028.5, 'gpt_reward': 3656302715681050.5, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 1 finished with reward: {'angle_reward': 22.763463667982297, 'movement_reward': 3.114282308966416e+16, 'gpt_reward': 3.1142823089664184e+16, 'gt_reward': 33.0, 'episode_length': 24.0}
+Episode 2 finished with reward: {'angle_reward': 21.80768089480135, 'movement_reward': 2223618626934073.8, 'gpt_reward': 2223618626934095.5, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 3 finished with reward: {'angle_reward': 21.83516188346584, 'movement_reward': 1823490524980881.5, 'gpt_reward': 1823490524980903.2, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 4 finished with reward: {'angle_reward': 20.831721018517868, 'movement_reward': 178781714854468.88, 'gpt_reward': 178781714854489.72, 'gt_reward': 31.0, 'episode_length': 22.0}
+Episode 5 finished with reward: {'angle_reward': 20.82215364607363, 'movement_reward': 208251724010422.03, 'gpt_reward': 208251724010442.84, 'gt_reward': 31.0, 'episode_length': 22.0}
+Episode 1 finished with reward: {'angle_reward': 21.834816650494602, 'movement_reward': 1356791576462155.0, 'gpt_reward': 1356791576462176.8, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 2 finished with reward: {'angle_reward': 21.87337485360566, 'movement_reward': 4563981329175336.0, 'gpt_reward': 4563981329175358.0, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 3 finished with reward: {'angle_reward': 20.82132820297445, 'movement_reward': 142462902449493.12, 'gpt_reward': 142462902449513.97, 'gt_reward': 31.0, 'episode_length': 22.0}
+Episode 4 finished with reward: {'angle_reward': 21.773668865875248, 'movement_reward': 2092200883835749.2, 'gpt_reward': 2092200883835771.0, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 5 finished with reward: {'angle_reward': 21.850231774375125, 'movement_reward': 4634775093036636.0, 'gpt_reward': 4634775093036658.0, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 1 finished with reward: {'angle_reward': 20.775383594688254, 'movement_reward': 98944393806604.55, 'gpt_reward': 98944393806625.33, 'gt_reward': 31.0, 'episode_length': 22.0}
+Episode 2 finished with reward: {'angle_reward': 20.81294054758487, 'movement_reward': 126217225024503.75, 'gpt_reward': 126217225024524.56, 'gt_reward': 31.0, 'episode_length': 22.0}
+Episode 3 finished with reward: {'angle_reward': 20.84829716345185, 'movement_reward': 254199725739800.44, 'gpt_reward': 254199725739821.28, 'gt_reward': 31.0, 'episode_length': 22.0}
+Episode 4 finished with reward: {'angle_reward': 21.825656894439863, 'movement_reward': 1041087026892819.2, 'gpt_reward': 1041087026892841.0, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 5 finished with reward: {'angle_reward': 20.822616371085278, 'movement_reward': 103077540484665.67, 'gpt_reward': 103077540484686.5, 'gt_reward': 31.0, 'episode_length': 22.0}
+Episode 1 finished with reward: {'angle_reward': 21.84667041887998, 'movement_reward': 3569763702130122.0, 'gpt_reward': 3569763702130144.0, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 2 finished with reward: {'angle_reward': 21.821889209968276, 'movement_reward': 1781349775639700.2, 'gpt_reward': 1781349775639722.0, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 3 finished with reward: {'angle_reward': 21.851543913948657, 'movement_reward': 4625775558914646.0, 'gpt_reward': 4625775558914668.0, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 4 finished with reward: {'angle_reward': 20.806483723287688, 'movement_reward': 99153959932075.5, 'gpt_reward': 99153959932096.31, 'gt_reward': 31.0, 'episode_length': 22.0}
+Episode 5 finished with reward: {'angle_reward': 21.877920122991004, 'movement_reward': 1451291385890247.0, 'gpt_reward': 1451291385890268.8, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 1 finished with reward: {'angle_reward': 21.769205842875362, 'movement_reward': 920160909740512.4, 'gpt_reward': 920160909740534.1, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 2 finished with reward: {'angle_reward': 21.74663713992044, 'movement_reward': 894327258704035.4, 'gpt_reward': 894327258704057.1, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 3 finished with reward: {'angle_reward': 21.734164769414804, 'movement_reward': 2679680273381866.0, 'gpt_reward': 2679680273381887.5, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 4 finished with reward: {'angle_reward': 20.7819186737019, 'movement_reward': 107208407280235.03, 'gpt_reward': 107208407280255.8, 'gt_reward': 31.0, 'episode_length': 22.0}
+Episode 5 finished with reward: {'angle_reward': 20.816607386322364, 'movement_reward': 148441972661615.56, 'gpt_reward': 148441972661636.38, 'gt_reward': 31.0, 'episode_length': 22.0}
+Episode 1 finished with reward: {'angle_reward': 21.755166250117583, 'movement_reward': 655293105969396.2, 'gpt_reward': 655293105969418.1, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 2 finished with reward: {'angle_reward': 21.752763835308993, 'movement_reward': 634508027998809.9, 'gpt_reward': 634508027998831.8, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 3 finished with reward: {'angle_reward': 20.81860970046575, 'movement_reward': 152030459294170.66, 'gpt_reward': 152030459294191.47, 'gt_reward': 31.0, 'episode_length': 22.0}
+Episode 4 finished with reward: {'angle_reward': 20.79023855063685, 'movement_reward': 159691918812136.2, 'gpt_reward': 159691918812156.97, 'gt_reward': 31.0, 'episode_length': 22.0}
+Episode 5 finished with reward: {'angle_reward': 21.752360380632325, 'movement_reward': 2183498776612956.0, 'gpt_reward': 2183498776612977.5, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 1 finished with reward: {'angle_reward': 20.814347340342266, 'movement_reward': 59569528555159.62, 'gpt_reward': 59569528555180.43, 'gt_reward': 31.0, 'episode_length': 22.0}
+Episode 2 finished with reward: {'angle_reward': 21.832501581667255, 'movement_reward': 2782411470870952.5, 'gpt_reward': 2782411470870974.5, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 3 finished with reward: {'angle_reward': 22.75894165268945, 'movement_reward': 4.077513367911722e+16, 'gpt_reward': 4.077513367911723e+16, 'gt_reward': 33.0, 'episode_length': 24.0}
+Episode 4 finished with reward: {'angle_reward': 20.849195710561176, 'movement_reward': 134316292191307.4, 'gpt_reward': 134316292191328.25, 'gt_reward': 31.0, 'episode_length': 22.0}
+Episode 5 finished with reward: {'angle_reward': 21.818012845348, 'movement_reward': 3930386485177766.5, 'gpt_reward': 3930386485177788.5, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 1 finished with reward: {'angle_reward': 21.847703002936786, 'movement_reward': 3158876244087240.0, 'gpt_reward': 3158876244087262.0, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 2 finished with reward: {'angle_reward': 20.792802731778497, 'movement_reward': 157772162667006.34, 'gpt_reward': 157772162667027.12, 'gt_reward': 31.0, 'episode_length': 22.0}
+Episode 3 finished with reward: {'angle_reward': 21.86334572891534, 'movement_reward': 2394863013785813.0, 'gpt_reward': 2394863013785835.0, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 4 finished with reward: {'angle_reward': 21.805507820295258, 'movement_reward': 2075432517276590.5, 'gpt_reward': 2075432517276612.2, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 5 finished with reward: {'angle_reward': 21.819897990030665, 'movement_reward': 3188978906680833.0, 'gpt_reward': 3188978906680855.0, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 1 finished with reward: {'angle_reward': 21.85708731513202, 'movement_reward': 1528088985378871.0, 'gpt_reward': 1528088985378892.8, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 2 finished with reward: {'angle_reward': 20.765147963018308, 'movement_reward': 107875398323564.06, 'gpt_reward': 107875398323584.81, 'gt_reward': 31.0, 'episode_length': 22.0}
+Episode 3 finished with reward: {'angle_reward': 20.85417781085087, 'movement_reward': 89272447846112.88, 'gpt_reward': 89272447846133.73, 'gt_reward': 31.0, 'episode_length': 22.0}
+Episode 4 finished with reward: {'angle_reward': 20.789136502567388, 'movement_reward': 92523401277526.23, 'gpt_reward': 92523401277547.03, 'gt_reward': 31.0, 'episode_length': 22.0}
+Episode 5 finished with reward: {'angle_reward': 21.739807354455248, 'movement_reward': 903337407039720.5, 'gpt_reward': 903337407039742.2, 'gt_reward': 32.0, 'episode_length': 23.0}
+/opt/miniconda3/envs/drl/lib/python3.11/site-packages/numpy/core/_methods.py:176: RuntimeWarning: overflow encountered in multiply
+  x = um.multiply(x, x, out=x)
+/opt/miniconda3/envs/drl/lib/python3.11/site-packages/numpy/core/_methods.py:187: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(x, axis, dtype, out, keepdims=keepdims, where=where)
+/opt/miniconda3/envs/drl/lib/python3.11/site-packages/stable_baselines3/common/utils.py:65: RuntimeWarning: invalid value encountered in scalar divide
+  return np.nan if var_y == 0 else float(1 - np.var(y_true - y_pred) / var_y)
+Episode 1 finished with reward: {'angle_reward': 21.721933392800768, 'movement_reward': 1280151270543543.0, 'gpt_reward': 1280151270543564.8, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 2 finished with reward: {'angle_reward': 21.824299417209655, 'movement_reward': 911379676209388.9, 'gpt_reward': 911379676209410.8, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 3 finished with reward: {'angle_reward': 21.696499975263297, 'movement_reward': 931120700479437.9, 'gpt_reward': 931120700479459.5, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 4 finished with reward: {'angle_reward': 21.891141567470036, 'movement_reward': 3017441525003676.5, 'gpt_reward': 3017441525003698.5, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 5 finished with reward: {'angle_reward': 21.80438444917213, 'movement_reward': 3729502407588926.5, 'gpt_reward': 3729502407588948.5, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 1 finished with reward: {'angle_reward': 21.784474302798778, 'movement_reward': 3138114463563193.0, 'gpt_reward': 3138114463563215.0, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 2 finished with reward: {'angle_reward': 20.776637849145338, 'movement_reward': 145852645988851.5, 'gpt_reward': 145852645988872.28, 'gt_reward': 31.0, 'episode_length': 22.0}
+Episode 3 finished with reward: {'angle_reward': 21.76114819049207, 'movement_reward': 1922925009468750.0, 'gpt_reward': 1922925009468771.5, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 4 finished with reward: {'angle_reward': 21.859393718339145, 'movement_reward': 1599652112741462.2, 'gpt_reward': 1599652112741484.0, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 5 finished with reward: {'angle_reward': 22.744308490015523, 'movement_reward': 1.2934699181411942e+16, 'gpt_reward': 1.2934699181411964e+16, 'gt_reward': 33.0, 'episode_length': 24.0}
+Episode 1 finished with reward: {'angle_reward': 21.84422248051129, 'movement_reward': 4295575021381841.5, 'gpt_reward': 4295575021381863.5, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 2 finished with reward: {'angle_reward': 20.814672527862996, 'movement_reward': 109994484799794.42, 'gpt_reward': 109994484799815.25, 'gt_reward': 31.0, 'episode_length': 22.0}
+Episode 3 finished with reward: {'angle_reward': 21.83912016886799, 'movement_reward': 2078202505091839.0, 'gpt_reward': 2078202505091860.8, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 4 finished with reward: {'angle_reward': 21.813975970206293, 'movement_reward': 1471558881819539.0, 'gpt_reward': 1471558881819560.5, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 5 finished with reward: {'angle_reward': 21.76420545084351, 'movement_reward': 869463490584177.2, 'gpt_reward': 869463490584199.0, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 1 finished with reward: {'angle_reward': 21.78658852497945, 'movement_reward': 2914173536444064.5, 'gpt_reward': 2914173536444086.5, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 2 finished with reward: {'angle_reward': 21.721910092182423, 'movement_reward': 640983193830123.1, 'gpt_reward': 640983193830144.8, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 3 finished with reward: {'angle_reward': 21.881960927042584, 'movement_reward': 3755011123353239.0, 'gpt_reward': 3755011123353261.0, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 4 finished with reward: {'angle_reward': 21.752675433967784, 'movement_reward': 1117210384448072.6, 'gpt_reward': 1117210384448094.4, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 5 finished with reward: {'angle_reward': 21.757516824061806, 'movement_reward': 1102939756088515.2, 'gpt_reward': 1102939756088537.0, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 1 finished with reward: {'angle_reward': 21.875124333479516, 'movement_reward': 3483368986332324.0, 'gpt_reward': 3483368986332346.0, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 2 finished with reward: {'angle_reward': 20.820849642170767, 'movement_reward': 82252076252515.53, 'gpt_reward': 82252076252536.38, 'gt_reward': 31.0, 'episode_length': 22.0}
+Episode 3 finished with reward: {'angle_reward': 21.77372010488781, 'movement_reward': 1408853384798509.5, 'gpt_reward': 1408853384798531.2, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 4 finished with reward: {'angle_reward': 21.85556810684436, 'movement_reward': 1329545686959245.0, 'gpt_reward': 1329545686959266.8, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 5 finished with reward: {'angle_reward': 21.760242039623147, 'movement_reward': 2445935098184616.0, 'gpt_reward': 2445935098184638.0, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 1 finished with reward: {'angle_reward': 20.76177694751618, 'movement_reward': 52839014102436.47, 'gpt_reward': 52839014102457.234, 'gt_reward': 31.0, 'episode_length': 22.0}
+Episode 2 finished with reward: {'angle_reward': 20.856212132780165, 'movement_reward': 83297805316220.0, 'gpt_reward': 83297805316240.86, 'gt_reward': 31.0, 'episode_length': 22.0}
+Episode 3 finished with reward: {'angle_reward': 21.838670035223675, 'movement_reward': 1027269685957613.8, 'gpt_reward': 1027269685957635.6, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 4 finished with reward: {'angle_reward': 20.847000386737612, 'movement_reward': 183323908412078.22, 'gpt_reward': 183323908412099.06, 'gt_reward': 31.0, 'episode_length': 22.0}
+Episode 5 finished with reward: {'angle_reward': 21.720828290507487, 'movement_reward': 1584862128769399.0, 'gpt_reward': 1584862128769420.5, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 1 finished with reward: {'angle_reward': 21.864656855592774, 'movement_reward': 1375086382757540.5, 'gpt_reward': 1375086382757562.2, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 2 finished with reward: {'angle_reward': 21.822404691716947, 'movement_reward': 1596419046652524.5, 'gpt_reward': 1596419046652546.2, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 3 finished with reward: {'angle_reward': 21.728550658608953, 'movement_reward': 1768401066895180.2, 'gpt_reward': 1768401066895202.0, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 4 finished with reward: {'angle_reward': 21.728667885935714, 'movement_reward': 2388801111685047.0, 'gpt_reward': 2388801111685068.5, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 5 finished with reward: {'angle_reward': 20.76533750863087, 'movement_reward': 89872842701607.53, 'gpt_reward': 89872842701628.28, 'gt_reward': 31.0, 'episode_length': 22.0}
+Episode 1 finished with reward: {'angle_reward': 21.870228445576526, 'movement_reward': 3434805099759414.5, 'gpt_reward': 3434805099759436.5, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 2 finished with reward: {'angle_reward': 21.781542202380855, 'movement_reward': 1810396269311164.0, 'gpt_reward': 1810396269311185.8, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 3 finished with reward: {'angle_reward': 21.811460175844932, 'movement_reward': 2445929781226523.0, 'gpt_reward': 2445929781226545.0, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 4 finished with reward: {'angle_reward': 21.86270697463539, 'movement_reward': 1830208092222989.0, 'gpt_reward': 1830208092223010.8, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 5 finished with reward: {'angle_reward': 21.810991442316002, 'movement_reward': 1739641375415415.0, 'gpt_reward': 1739641375415436.5, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 1 finished with reward: {'angle_reward': 22.754630868158173, 'movement_reward': 3.3869787993629336e+16, 'gpt_reward': 3.386978799362936e+16, 'gt_reward': 33.0, 'episode_length': 24.0}
+Episode 2 finished with reward: {'angle_reward': 20.83329172134042, 'movement_reward': 71098347442386.78, 'gpt_reward': 71098347442407.61, 'gt_reward': 31.0, 'episode_length': 22.0}
+Episode 3 finished with reward: {'angle_reward': 20.795500102175655, 'movement_reward': 219257515111671.03, 'gpt_reward': 219257515111691.8, 'gt_reward': 31.0, 'episode_length': 22.0}
+Episode 4 finished with reward: {'angle_reward': 21.731555781657896, 'movement_reward': 2427716789318020.0, 'gpt_reward': 2427716789318041.5, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 5 finished with reward: {'angle_reward': 20.799577809655336, 'movement_reward': 196306149932112.72, 'gpt_reward': 196306149932133.5, 'gt_reward': 31.0, 'episode_length': 22.0}
+Episode 1 finished with reward: {'angle_reward': 21.71837810239476, 'movement_reward': 572708702738260.8, 'gpt_reward': 572708702738282.4, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 2 finished with reward: {'angle_reward': 21.760200652987816, 'movement_reward': 668752180616393.1, 'gpt_reward': 668752180616414.9, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 3 finished with reward: {'angle_reward': 20.813988746798724, 'movement_reward': 162060270491032.44, 'gpt_reward': 162060270491053.25, 'gt_reward': 31.0, 'episode_length': 22.0}
+Episode 4 finished with reward: {'angle_reward': 20.802488050019843, 'movement_reward': 58895573805031.13, 'gpt_reward': 58895573805051.94, 'gt_reward': 31.0, 'episode_length': 22.0}
+Episode 5 finished with reward: {'angle_reward': 21.822594777961694, 'movement_reward': 3014450759816824.5, 'gpt_reward': 3014450759816846.5, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 1 finished with reward: {'angle_reward': 21.7674352365119, 'movement_reward': 2906645242172661.0, 'gpt_reward': 2906645242172683.0, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 2 finished with reward: {'angle_reward': 21.836098285322947, 'movement_reward': 982346185009746.8, 'gpt_reward': 982346185009768.6, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 3 finished with reward: {'angle_reward': 21.85039951312328, 'movement_reward': 3106343817701237.5, 'gpt_reward': 3106343817701259.5, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 4 finished with reward: {'angle_reward': 20.807408644392645, 'movement_reward': 53773337518033.77, 'gpt_reward': 53773337518054.58, 'gt_reward': 31.0, 'episode_length': 22.0}
+Episode 5 finished with reward: {'angle_reward': 21.864178361435666, 'movement_reward': 3431919931076048.0, 'gpt_reward': 3431919931076070.0, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 1 finished with reward: {'angle_reward': 21.773708973687953, 'movement_reward': 1001860020820049.2, 'gpt_reward': 1001860020820071.1, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 2 finished with reward: {'angle_reward': 21.832897143748422, 'movement_reward': 2789288575751325.5, 'gpt_reward': 2789288575751347.5, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 3 finished with reward: {'angle_reward': 21.823902151363814, 'movement_reward': 835188273843799.0, 'gpt_reward': 835188273843820.9, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 4 finished with reward: {'angle_reward': 21.884450544476145, 'movement_reward': 3647711136494878.0, 'gpt_reward': 3647711136494900.0, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 5 finished with reward: {'angle_reward': 21.780328443082745, 'movement_reward': 724222133985986.6, 'gpt_reward': 724222133986008.5, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 1 finished with reward: {'angle_reward': 21.860964548434538, 'movement_reward': 4261501808180274.5, 'gpt_reward': 4261501808180296.5, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 2 finished with reward: {'angle_reward': 21.727342813943906, 'movement_reward': 1720060041963554.8, 'gpt_reward': 1720060041963576.5, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 3 finished with reward: {'angle_reward': 20.85305107378389, 'movement_reward': 260078748871561.7, 'gpt_reward': 260078748871582.53, 'gt_reward': 31.0, 'episode_length': 22.0}
+Episode 4 finished with reward: {'angle_reward': 21.83400081950937, 'movement_reward': 1982581360274225.5, 'gpt_reward': 1982581360274247.2, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 5 finished with reward: {'angle_reward': 21.76548754314447, 'movement_reward': 1486079980793400.2, 'gpt_reward': 1486079980793421.8, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 1 finished with reward: {'angle_reward': 21.83995805879482, 'movement_reward': 1407037211441731.5, 'gpt_reward': 1407037211441753.2, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 2 finished with reward: {'angle_reward': 21.738072381374767, 'movement_reward': 812784249311214.9, 'gpt_reward': 812784249311236.6, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 3 finished with reward: {'angle_reward': 22.766186013182224, 'movement_reward': 4.016906139735511e+16, 'gpt_reward': 4.016906139735514e+16, 'gt_reward': 33.0, 'episode_length': 24.0}
+Episode 4 finished with reward: {'angle_reward': 21.801244873241693, 'movement_reward': 750262245591176.8, 'gpt_reward': 750262245591198.6, 'gt_reward': 32.0, 'episode_length': 23.0}
+Episode 5 finished with reward: {'angle_reward': 21.889408991071324, 'movement_reward': 2561248070927625.5, 'gpt_reward': 2561248070927647.5, 'gt_reward': 32.0, 'episode_length': 23.0}
+Model saved!
+Logs saved!
+Visualizing a few frames .
+/opt/miniconda3/envs/drl/lib/python3.11/site-packages/gymnasium/envs/classic_control/cartpole.py:214: UserWarning: [33mWARN: You are calling 'step()' even though this environment has already returned terminated = True. You should always call 'reset()' once you receive 'terminated = True' -- any further steps are undefined behavior.[0m
+  logger.warn(
+Recording a video...
+/opt/miniconda3/envs/drl/lib/python3.11/site-packages/gymnasium/envs/classic_control/cartpole.py:214: UserWarning: [33mWARN: You are calling 'step()' even though this environment has already returned terminated = True. You should always call 'reset()' once you receive 'terminated = True' -- any further steps are undefined behavior.[0m
+  logger.warn(
+Video recorded. Check the ./videos directory.

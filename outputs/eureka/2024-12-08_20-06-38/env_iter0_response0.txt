@@ -1,0 +1,169 @@
+/Users/chunhaozou/Desktop/drl/envs/cartpole_train_eval.py:7: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  from pkg_resources import parse_requirements
+name: __main__
+Using cpu device
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+/opt/miniconda3/envs/drl/lib/python3.11/site-packages/gymnasium/envs/classic_control/cartpole.py:214: UserWarning: [33mWARN: You are calling 'step()' even though this environment has already returned terminated = True. You should always call 'reset()' once you receive 'terminated = True' -- any further steps are undefined behavior.[0m
+  logger.warn(
+Episode 1 finished with reward: {'balance_reward': 344.71556708640827, 'swing_reward': 0.9960808803110587, 'fail_penalty': -1.0, 'gpt_reward': 344.71164796671934, 'gt_reward': 464.0, 'episode_length': 347.0}
+Episode 2 finished with reward: {'balance_reward': 290.60863593043797, 'swing_reward': 0.0, 'fail_penalty': -1.0, 'gpt_reward': 289.60863593043797, 'gt_reward': 301.0, 'episode_length': 292.0}
+Episode 3 finished with reward: {'balance_reward': 595.3265813228314, 'swing_reward': 0.9948691483595171, 'fail_penalty': -1.0, 'gpt_reward': 595.321450471191, 'gt_reward': 715.0, 'episode_length': 598.0}
+Episode 4 finished with reward: {'balance_reward': 378.3951373516778, 'swing_reward': 0.0, 'fail_penalty': -1.0, 'gpt_reward': 377.3951373516778, 'gt_reward': 389.0, 'episode_length': 380.0}
+Episode 5 finished with reward: {'balance_reward': 1149.6894518361412, 'swing_reward': 0.9014862914961501, 'fail_penalty': -1.0, 'gpt_reward': 1149.5909381276372, 'gt_reward': 1269.0, 'episode_length': 1152.0}
+Episode 1 finished with reward: {'balance_reward': 470.0622486501881, 'swing_reward': 0.0, 'fail_penalty': -1.0, 'gpt_reward': 469.0622486501881, 'gt_reward': 480.0, 'episode_length': 471.0}
+Episode 2 finished with reward: {'balance_reward': 454.06307857288874, 'swing_reward': 0.0, 'fail_penalty': -1.0, 'gpt_reward': 453.06307857288874, 'gt_reward': 464.0, 'episode_length': 455.0}
+Episode 3 finished with reward: {'balance_reward': 430.65467090558, 'swing_reward': 0.0, 'fail_penalty': -1.0, 'gpt_reward': 429.65467090558, 'gt_reward': 441.0, 'episode_length': 432.0}
+Episode 4 finished with reward: {'balance_reward': 502.94641952734145, 'swing_reward': 0.0, 'fail_penalty': -1.0, 'gpt_reward': 501.94641952734145, 'gt_reward': 513.0, 'episode_length': 504.0}
+Episode 5 finished with reward: {'balance_reward': 460.8885686889895, 'swing_reward': 0.0, 'fail_penalty': -1.0, 'gpt_reward': 459.8885686889895, 'gt_reward': 471.0, 'episode_length': 462.0}
+Episode 1 finished with reward: {'balance_reward': 1588.1146480464631, 'swing_reward': 0.9035032223940362, 'fail_penalty': -1.0, 'gpt_reward': 1588.0181512688573, 'gt_reward': 1707.0, 'episode_length': 1590.0}
+Episode 2 finished with reward: {'balance_reward': 1997.4931892582708, 'swing_reward': 2.806164710349996, 'fail_penalty': 0.0, 'gpt_reward': 2000.2993539686208, 'gt_reward': 2333.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'balance_reward': 1997.208165152649, 'swing_reward': 2.8074463769383895, 'fail_penalty': 0.0, 'gpt_reward': 2000.0156115295872, 'gt_reward': 2333.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'balance_reward': 1998.25473872722, 'swing_reward': 1.9023034279799573, 'fail_penalty': 0.0, 'gpt_reward': 2000.1570421552, 'gt_reward': 2225.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'balance_reward': 1998.0678383886498, 'swing_reward': 1.9025327229799005, 'fail_penalty': 0.0, 'gpt_reward': 1999.9703711116294, 'gt_reward': 2225.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'balance_reward': 1994.5842087398644, 'swing_reward': 8.610692479124198, 'fail_penalty': 0.0, 'gpt_reward': 2003.194901218988, 'gt_reward': 2981.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'balance_reward': 1995.4457368868975, 'swing_reward': 6.709425048386461, 'fail_penalty': 0.0, 'gpt_reward': 2002.155161935284, 'gt_reward': 2765.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'balance_reward': 1996.0766530140334, 'swing_reward': 5.708582960434796, 'fail_penalty': 0.0, 'gpt_reward': 2001.785235974468, 'gt_reward': 2657.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'balance_reward': 1995.6719253167655, 'swing_reward': 6.613720612550727, 'fail_penalty': 0.0, 'gpt_reward': 2002.2856459293157, 'gt_reward': 2765.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'balance_reward': 1996.069928433077, 'swing_reward': 6.6133627195742175, 'fail_penalty': 0.0, 'gpt_reward': 2002.683291152651, 'gt_reward': 2765.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'balance_reward': 1997.26676777856, 'swing_reward': 5.708609184046038, 'fail_penalty': 0.0, 'gpt_reward': 2002.9753769626059, 'gt_reward': 2657.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'balance_reward': 1996.1452865832803, 'swing_reward': 7.611932008082233, 'fail_penalty': 0.0, 'gpt_reward': 2003.7572185913625, 'gt_reward': 2873.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'balance_reward': 1998.5618168409346, 'swing_reward': 1.902586414028726, 'fail_penalty': 0.0, 'gpt_reward': 2000.4644032549634, 'gt_reward': 2225.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'balance_reward': 1996.017003613428, 'swing_reward': 7.610487809478809, 'fail_penalty': 0.0, 'gpt_reward': 2003.6274914229073, 'gt_reward': 2873.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'balance_reward': 1998.1258510777077, 'swing_reward': 2.9018614258925552, 'fail_penalty': 0.0, 'gpt_reward': 2001.0277125036002, 'gt_reward': 2333.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'balance_reward': 1997.2801250492341, 'swing_reward': 5.708674775373066, 'fail_penalty': 0.0, 'gpt_reward': 2002.988799824607, 'gt_reward': 2657.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'balance_reward': 1998.6843599597655, 'swing_reward': 1.9026801536715316, 'fail_penalty': 0.0, 'gpt_reward': 2000.587040113437, 'gt_reward': 2225.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'balance_reward': 1998.4384831797734, 'swing_reward': 2.902455745482233, 'fail_penalty': 0.0, 'gpt_reward': 2001.3409389252558, 'gt_reward': 2333.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'balance_reward': 1998.15298282865, 'swing_reward': 3.8060895559760093, 'fail_penalty': 0.0, 'gpt_reward': 2001.959072384626, 'gt_reward': 2441.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'balance_reward': 1997.7601614632324, 'swing_reward': 4.805338846705749, 'fail_penalty': 0.0, 'gpt_reward': 2002.565500309938, 'gt_reward': 2549.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'balance_reward': 1997.8497060259854, 'swing_reward': 4.8047105860734645, 'fail_penalty': 0.0, 'gpt_reward': 2002.6544166120586, 'gt_reward': 2549.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'balance_reward': 1999.317752641818, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.317752641818, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'balance_reward': 1999.3960463499282, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.3960463499282, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'balance_reward': 1999.3527044908358, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.3527044908358, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'balance_reward': 1999.3980909831678, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.3980909831678, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'balance_reward': 1998.8777204758394, 'swing_reward': 2.9026323573854356, 'fail_penalty': 0.0, 'gpt_reward': 2001.7803528332247, 'gt_reward': 2333.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'balance_reward': 1999.395199765901, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.395199765901, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'balance_reward': 1999.3857505005549, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.3857505005549, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'balance_reward': 1999.3778379253124, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.3778379253124, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'balance_reward': 1998.8469940743564, 'swing_reward': 1.903591967062182, 'fail_penalty': 0.0, 'gpt_reward': 2000.7505860414185, 'gt_reward': 2225.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'balance_reward': 1999.3678748247455, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.3678748247455, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'balance_reward': 1999.4006838938176, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.4006838938176, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'balance_reward': 1998.0664682147726, 'swing_reward': 4.805296449300304, 'fail_penalty': 0.0, 'gpt_reward': 2002.871764664073, 'gt_reward': 2549.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'balance_reward': 1999.3649012259928, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.3649012259928, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'balance_reward': 1998.1952705792135, 'swing_reward': 4.805835444364995, 'fail_penalty': 0.0, 'gpt_reward': 2003.0011060235781, 'gt_reward': 2549.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'balance_reward': 1998.2833276006638, 'swing_reward': 3.8061762459283015, 'fail_penalty': 0.0, 'gpt_reward': 2002.0895038465926, 'gt_reward': 2441.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'balance_reward': 1999.3982595198001, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.3982595198001, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'balance_reward': 1999.4073522222654, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.4073522222654, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'balance_reward': 1999.378231701004, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.378231701004, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'balance_reward': 1999.3954707394466, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.3954707394466, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'balance_reward': 1999.3883675973213, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.3883675973213, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'balance_reward': 1999.3753589000605, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.3753589000605, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'balance_reward': 1999.3744712067257, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.3744712067257, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'balance_reward': 1999.0046153235091, 'swing_reward': 0.9992283998054124, 'fail_penalty': 0.0, 'gpt_reward': 2000.0038437233147, 'gt_reward': 2117.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'balance_reward': 1998.6777541008921, 'swing_reward': 1.9025113041386787, 'fail_penalty': 0.0, 'gpt_reward': 2000.580265405031, 'gt_reward': 2225.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'balance_reward': 1998.7229373594832, 'swing_reward': 1.902761956214428, 'fail_penalty': 0.0, 'gpt_reward': 2000.6256993156976, 'gt_reward': 2225.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'balance_reward': 1999.3847479348974, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.3847479348974, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'balance_reward': 1999.410300964947, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.410300964947, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'balance_reward': 1999.3392036249732, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.3392036249732, 'gt_reward': 2009.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'balance_reward': 1998.7168524104968, 'swing_reward': 1.9033674226938289, 'fail_penalty': 0.0, 'gpt_reward': 2000.6202198331905, 'gt_reward': 2225.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'balance_reward': 1999.4087761876942, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.4087761876942, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'balance_reward': 1999.4000718488778, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.4000718488778, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'balance_reward': 1999.4042414630999, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.4042414630999, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'balance_reward': 1999.411012053085, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.411012053085, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'balance_reward': 1999.3984665593337, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.3984665593337, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'balance_reward': 1999.3998567402998, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.3998567402998, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'balance_reward': 1999.4008392338683, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.4008392338683, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'balance_reward': 1999.4021849895735, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.4021849895735, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'balance_reward': 1999.3967267899952, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.3967267899952, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'balance_reward': 1999.4053752717082, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.4053752717082, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'balance_reward': 1999.3977138024677, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.3977138024677, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'balance_reward': 1999.4068027259248, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.4068027259248, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'balance_reward': 1999.3999028884552, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.3999028884552, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'balance_reward': 1999.4055911981422, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.4055911981422, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'balance_reward': 1999.4099443565533, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.4099443565533, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'balance_reward': 1999.3946660247564, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.3946660247564, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'balance_reward': 1999.404609617995, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.404609617995, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'balance_reward': 1999.4083393964415, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.4083393964415, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'balance_reward': 1999.4140344807986, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.4140344807986, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'balance_reward': 1999.3922448271692, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.3922448271692, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'balance_reward': 1999.3921659803982, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.3921659803982, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'balance_reward': 1999.4106001201455, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.4106001201455, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'balance_reward': 1999.4081026544632, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.4081026544632, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'balance_reward': 1999.393602377844, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.393602377844, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'balance_reward': 1999.4090582386539, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.4090582386539, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'balance_reward': 1999.401866755131, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.401866755131, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'balance_reward': 1999.4125359880127, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.4125359880127, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'balance_reward': 1999.4049664126392, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.4049664126392, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'balance_reward': 1999.4094266419818, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.4094266419818, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'balance_reward': 1999.4011612920349, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.4011612920349, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'balance_reward': 1999.3784238089563, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.3784238089563, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'balance_reward': 1999.376946650333, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.376946650333, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'balance_reward': 1999.3976889672767, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.3976889672767, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'balance_reward': 1999.3923099413116, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.3923099413116, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'balance_reward': 1999.4057867855213, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.4057867855213, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'balance_reward': 1999.3909590001433, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.3909590001433, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'balance_reward': 1999.4057564186417, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.4057564186417, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'balance_reward': 1998.2526980516022, 'swing_reward': 1.9018833834399154, 'fail_penalty': 0.0, 'gpt_reward': 2000.1545814350422, 'gt_reward': 2225.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'balance_reward': 1999.407006766315, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.407006766315, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'balance_reward': 1997.356443756553, 'swing_reward': 2.8036688000042695, 'fail_penalty': 0.0, 'gpt_reward': 2000.1601125565574, 'gt_reward': 2333.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'balance_reward': 1999.3971466628752, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.3971466628752, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'balance_reward': 1998.1278692573308, 'swing_reward': 2.8051529786089926, 'fail_penalty': 0.0, 'gpt_reward': 2000.9330222359397, 'gt_reward': 2333.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'balance_reward': 1999.4054475816465, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.4054475816465, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'balance_reward': 1998.3315050333433, 'swing_reward': 1.9017764691687158, 'fail_penalty': 0.0, 'gpt_reward': 2000.2332815025118, 'gt_reward': 2225.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'balance_reward': 1999.4119719925407, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.4119719925407, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'balance_reward': 1999.410909939495, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.410909939495, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'balance_reward': 1999.4135906917681, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.4135906917681, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'balance_reward': 1999.4102773649606, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.4102773649606, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'balance_reward': 1999.3996074948514, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.3996074948514, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'balance_reward': 1999.4117542269755, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.4117542269755, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'balance_reward': 1999.399249706544, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.399249706544, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'balance_reward': 1999.4094872742169, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.4094872742169, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'balance_reward': 1999.4143073922837, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.4143073922837, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'balance_reward': 1999.3995992479006, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.3995992479006, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'balance_reward': 1999.4022027199526, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.4022027199526, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'balance_reward': 1997.555298122751, 'swing_reward': 2.8038485634795767, 'fail_penalty': 0.0, 'gpt_reward': 2000.3591466862308, 'gt_reward': 2333.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'balance_reward': 1998.1755295445114, 'swing_reward': 1.9018195855043247, 'fail_penalty': 0.0, 'gpt_reward': 2000.0773491300158, 'gt_reward': 2225.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'balance_reward': 1997.895859803063, 'swing_reward': 1.9017301160508273, 'fail_penalty': 0.0, 'gpt_reward': 1999.7975899191138, 'gt_reward': 2225.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'balance_reward': 1998.4274117417806, 'swing_reward': 0.9034110469356013, 'fail_penalty': 0.0, 'gpt_reward': 1999.3308227887162, 'gt_reward': 2117.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'balance_reward': 1997.9466423350386, 'swing_reward': 1.9017677771864527, 'fail_penalty': 0.0, 'gpt_reward': 1999.8484101122249, 'gt_reward': 2225.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'balance_reward': 1998.5325389513696, 'swing_reward': 0.9022854798840213, 'fail_penalty': 0.0, 'gpt_reward': 1999.434824431254, 'gt_reward': 2117.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'balance_reward': 1999.3874902978314, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.3874902978314, 'gt_reward': 2009.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'balance_reward': 1998.5022664042538, 'swing_reward': 1.9025947497818567, 'fail_penalty': 0.0, 'gpt_reward': 2000.4048611540356, 'gt_reward': 2225.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'balance_reward': 1998.4095561384663, 'swing_reward': 1.9016725141245132, 'fail_penalty': 0.0, 'gpt_reward': 2000.3112286525907, 'gt_reward': 2225.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'balance_reward': 1999.405110448751, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.405110448751, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'balance_reward': 836.1436788476267, 'swing_reward': 0.9017270679482039, 'fail_penalty': -1.0, 'gpt_reward': 836.045405915575, 'gt_reward': 954.0, 'episode_length': 837.0}
+Episode 2 finished with reward: {'balance_reward': 1999.4066726818442, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.4066726818442, 'gt_reward': 2009.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'balance_reward': 1970.840385652942, 'swing_reward': 0.9019354964968529, 'fail_penalty': -1.0, 'gpt_reward': 1970.7423211494388, 'gt_reward': 2089.0, 'episode_length': 1972.0}
+Episode 4 finished with reward: {'balance_reward': 1185.0523724020713, 'swing_reward': 0.9031954780602154, 'fail_penalty': -1.0, 'gpt_reward': 1184.9555678801316, 'gt_reward': 1303.0, 'episode_length': 1186.0}
+Episode 5 finished with reward: {'balance_reward': 1119.0518033544997, 'swing_reward': 0.9026224878020136, 'fail_penalty': -1.0, 'gpt_reward': 1118.9544258423018, 'gt_reward': 1237.0, 'episode_length': 1120.0}
+Episode 1 finished with reward: {'balance_reward': 1998.8849877580355, 'swing_reward': 1.902080569244441, 'fail_penalty': 0.0, 'gpt_reward': 2000.78706832728, 'gt_reward': 2225.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'balance_reward': 1998.8911724028146, 'swing_reward': 1.903630479782013, 'fail_penalty': 0.0, 'gpt_reward': 2000.7948028825967, 'gt_reward': 2225.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'balance_reward': 1999.045759102878, 'swing_reward': 0.9993678184717911, 'fail_penalty': 0.0, 'gpt_reward': 2000.04512692135, 'gt_reward': 2117.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'balance_reward': 1998.836041020366, 'swing_reward': 1.9026855594107754, 'fail_penalty': 0.0, 'gpt_reward': 2000.738726579777, 'gt_reward': 2225.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'balance_reward': 1998.856082080797, 'swing_reward': 1.9017167164677673, 'fail_penalty': 0.0, 'gpt_reward': 2000.7577987972647, 'gt_reward': 2225.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'balance_reward': 1091.20367293801, 'swing_reward': 0.9035674335939823, 'fail_penalty': -1.0, 'gpt_reward': 1091.107240371604, 'gt_reward': 1209.0, 'episode_length': 1092.0}
+Episode 2 finished with reward: {'balance_reward': 935.255201977785, 'swing_reward': 0.9030684641454929, 'fail_penalty': -1.0, 'gpt_reward': 935.1582704419304, 'gt_reward': 1053.0, 'episode_length': 936.0}
+Episode 3 finished with reward: {'balance_reward': 1832.853471745342, 'swing_reward': 1.902544564834764, 'fail_penalty': -1.0, 'gpt_reward': 1833.7560163101768, 'gt_reward': 2059.0, 'episode_length': 1834.0}
+Episode 4 finished with reward: {'balance_reward': 1879.8423296631365, 'swing_reward': 1.9028751295988333, 'fail_penalty': -1.0, 'gpt_reward': 1880.7452047927356, 'gt_reward': 2106.0, 'episode_length': 1881.0}
+Episode 5 finished with reward: {'balance_reward': 1145.2151635480532, 'swing_reward': 0.902816120401559, 'fail_penalty': -1.0, 'gpt_reward': 1145.1179796684546, 'gt_reward': 1263.0, 'episode_length': 1146.0}
+Episode 1 finished with reward: {'balance_reward': 1998.6204843152022, 'swing_reward': 1.9022429766721047, 'fail_penalty': 0.0, 'gpt_reward': 2000.5227272918746, 'gt_reward': 2225.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'balance_reward': 1998.6031711415335, 'swing_reward': 1.9020872887437497, 'fail_penalty': 0.0, 'gpt_reward': 2000.505258430277, 'gt_reward': 2225.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'balance_reward': 1998.6330611308613, 'swing_reward': 1.9029333499389756, 'fail_penalty': 0.0, 'gpt_reward': 2000.5359944808, 'gt_reward': 2225.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'balance_reward': 1999.3980577434336, 'swing_reward': 0.0, 'fail_penalty': 0.0, 'gpt_reward': 1999.3980577434336, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'balance_reward': 1998.596025721525, 'swing_reward': 1.9018452799498975, 'fail_penalty': 0.0, 'gpt_reward': 2000.497871001475, 'gt_reward': 2225.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'balance_reward': 1998.6078450797957, 'swing_reward': 1.9020827132313585, 'fail_penalty': 0.0, 'gpt_reward': 2000.509927793027, 'gt_reward': 2225.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'balance_reward': 1998.7575348077994, 'swing_reward': 1.9024586813852913, 'fail_penalty': 0.0, 'gpt_reward': 2000.659993489185, 'gt_reward': 2225.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'balance_reward': 1998.6222100056386, 'swing_reward': 1.9028750698248298, 'fail_penalty': 0.0, 'gpt_reward': 2000.525085075463, 'gt_reward': 2225.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'balance_reward': 1998.6863526952025, 'swing_reward': 1.9028573702178138, 'fail_penalty': 0.0, 'gpt_reward': 2000.58921006542, 'gt_reward': 2225.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'balance_reward': 1998.3804337494437, 'swing_reward': 2.9009011140192333, 'fail_penalty': 0.0, 'gpt_reward': 2001.2813348634631, 'gt_reward': 2333.0, 'episode_length': 2000.0}
+Model saved!
+Logs saved!
+Visualizing a few frames .
+/opt/miniconda3/envs/drl/lib/python3.11/site-packages/gymnasium/envs/classic_control/cartpole.py:214: UserWarning: [33mWARN: You are calling 'step()' even though this environment has already returned terminated = True. You should always call 'reset()' once you receive 'terminated = True' -- any further steps are undefined behavior.[0m
+  logger.warn(
+Recording a video...
+/opt/miniconda3/envs/drl/lib/python3.11/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /Users/chunhaozou/Desktop/drl/outputs/eureka/2024-12-08_20-06-38/videos folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+/opt/miniconda3/envs/drl/lib/python3.11/site-packages/gymnasium/envs/classic_control/cartpole.py:214: UserWarning: [33mWARN: You are calling 'step()' even though this environment has already returned terminated = True. You should always call 'reset()' once you receive 'terminated = True' -- any further steps are undefined behavior.[0m
+  logger.warn(
+Video recorded. Check the ./videos directory.

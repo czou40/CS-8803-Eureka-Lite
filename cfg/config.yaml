@@ -1,0 +1,27 @@
+defaults:
+  - _self_
+  - env: cartpole
+  - override hydra/launcher: local
+  - override hydra/output: local
+
+hydra:
+  job:
+    chdir: True
+
+# LLM parameters
+model: gpt-4o
+temperature: 1.0
+suffix: GPT  # suffix for generated files (indicates LLM model)
+
+# Eureka parameters
+iteration: 7 # how many iterations of Eureka to run
+sample: 3 # number of Eureka samples to generate per iteration
+num_eval: 5 # number of evaluation episodes to run for the final reward
+use_screenshots: False # whether to capture policy rollout videos
+total_timesteps: 300000 # total timesteps for RL training
+log_timestep_freq: 10000 # logging frequency for RL training
+
+# Weights and Biases
+use_wandb: False # whether to use wandb for logging
+wandb_username: "" # wandb username if logging with wandb
+wandb_project: "" # wandb project if logging with wandb

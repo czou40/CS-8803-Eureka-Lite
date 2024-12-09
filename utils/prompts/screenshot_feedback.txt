@@ -1,0 +1,1 @@
+In addition to the data, we have also attached screenshots of several frames from a sample rollout, arranged in the order they were captured, for your reference. When drafting the new reward function, please analyze the agent’s behavior and address the issues in the current reward function as illustrated by the agent’s actions in the screenshots.

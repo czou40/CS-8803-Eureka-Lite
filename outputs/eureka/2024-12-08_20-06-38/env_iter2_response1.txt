@@ -1,0 +1,169 @@
+/Users/chunhaozou/Desktop/drl/envs/cartpole_train_eval.py:7: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  from pkg_resources import parse_requirements
+name: __main__
+Using cpu device
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+/opt/miniconda3/envs/drl/lib/python3.11/site-packages/gymnasium/envs/classic_control/cartpole.py:214: UserWarning: [33mWARN: You are calling 'step()' even though this environment has already returned terminated = True. You should always call 'reset()' once you receive 'terminated = True' -- any further steps are undefined behavior.[0m
+  logger.warn(
+Episode 1 finished with reward: {'pole_balance_reward': 144.17694383286738, 'cart_movement_reward': 35.06286986580499, 'gpt_reward': 179.23981369867232, 'gt_reward': 196.0, 'episode_length': 187.0}
+Episode 2 finished with reward: {'pole_balance_reward': 176.44109340684474, 'cart_movement_reward': 36.23114153735815, 'gpt_reward': 212.67223494420293, 'gt_reward': 236.0, 'episode_length': 227.0}
+Episode 3 finished with reward: {'pole_balance_reward': 125.30120435497861, 'cart_movement_reward': 34.719448306551726, 'gpt_reward': 160.02065266153036, 'gt_reward': 173.0, 'episode_length': 164.0}
+Episode 4 finished with reward: {'pole_balance_reward': 161.14495205399933, 'cart_movement_reward': 35.4291556986904, 'gpt_reward': 196.57410775268966, 'gt_reward': 216.0, 'episode_length': 207.0}
+Episode 5 finished with reward: {'pole_balance_reward': 158.03215722491083, 'cart_movement_reward': 35.097601746940725, 'gpt_reward': 193.12975897185177, 'gt_reward': 213.0, 'episode_length': 204.0}
+Episode 1 finished with reward: {'pole_balance_reward': 594.5082782764574, 'cart_movement_reward': 31.934706595683593, 'gpt_reward': 626.4429848721398, 'gt_reward': 740.0, 'episode_length': 731.0}
+Episode 2 finished with reward: {'pole_balance_reward': 563.1558920787751, 'cart_movement_reward': 31.895813325686856, 'gpt_reward': 595.0517054044607, 'gt_reward': 701.0, 'episode_length': 692.0}
+Episode 3 finished with reward: {'pole_balance_reward': 539.253458614406, 'cart_movement_reward': 32.42979190742961, 'gpt_reward': 571.6832505218363, 'gt_reward': 673.0, 'episode_length': 664.0}
+Episode 4 finished with reward: {'pole_balance_reward': 493.17567634009777, 'cart_movement_reward': 32.17310549982903, 'gpt_reward': 525.3487818399268, 'gt_reward': 615.0, 'episode_length': 606.0}
+Episode 5 finished with reward: {'pole_balance_reward': 797.8578263515036, 'cart_movement_reward': 35.43793146522053, 'gpt_reward': 833.2957578167238, 'gt_reward': 988.0, 'episode_length': 979.0}
+Episode 1 finished with reward: {'pole_balance_reward': 1623.8813420745041, 'cart_movement_reward': 65.22918288678926, 'gpt_reward': 1689.11052496129, 'gt_reward': 2333.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'pole_balance_reward': 1605.925831754407, 'cart_movement_reward': 97.15501055869287, 'gpt_reward': 1703.080842313103, 'gt_reward': 2765.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'pole_balance_reward': 1619.2845864376832, 'cart_movement_reward': 71.75756033474939, 'gpt_reward': 1691.0421467724377, 'gt_reward': 2441.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'pole_balance_reward': 1632.3256652666153, 'cart_movement_reward': 43.614829866885614, 'gpt_reward': 1675.9404951335066, 'gt_reward': 2117.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'pole_balance_reward': 1623.1149836359143, 'cart_movement_reward': 62.215461113745306, 'gpt_reward': 1685.330444749656, 'gt_reward': 2441.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'pole_balance_reward': 1338.9996353769836, 'cart_movement_reward': 38.07905768371964, 'gpt_reward': 1377.0786930607057, 'gt_reward': 1643.0, 'episode_length': 1634.0}
+Episode 2 finished with reward: {'pole_balance_reward': 1639.5467406023554, 'cart_movement_reward': 33.03925147794033, 'gpt_reward': 1672.585992080297, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'pole_balance_reward': 1639.6828316797262, 'cart_movement_reward': 31.41657160839845, 'gpt_reward': 1671.099403288124, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'pole_balance_reward': 1211.7478192363194, 'cart_movement_reward': 42.446367438434905, 'gpt_reward': 1254.1941866747577, 'gt_reward': 1603.0, 'episode_length': 1486.0}
+Episode 5 finished with reward: {'pole_balance_reward': 1289.7778818395345, 'cart_movement_reward': 37.21167331710047, 'gpt_reward': 1326.989555156637, 'gt_reward': 1583.0, 'episode_length': 1574.0}
+Episode 1 finished with reward: {'pole_balance_reward': 1639.9534778991706, 'cart_movement_reward': 34.80177194862609, 'gpt_reward': 1674.7552498477908, 'gt_reward': 2009.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'pole_balance_reward': 1639.9772447348832, 'cart_movement_reward': 37.64481920984236, 'gpt_reward': 1677.622063944721, 'gt_reward': 2009.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'pole_balance_reward': 1639.88041982152, 'cart_movement_reward': 34.53400124681192, 'gpt_reward': 1674.4144210683264, 'gt_reward': 2009.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'pole_balance_reward': 1639.9673359557958, 'cart_movement_reward': 36.31032485524333, 'gpt_reward': 1676.2776608110396, 'gt_reward': 2009.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'pole_balance_reward': 1639.167261432987, 'cart_movement_reward': 36.73989658571679, 'gpt_reward': 1675.907158018703, 'gt_reward': 2117.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'pole_balance_reward': 1639.921129215657, 'cart_movement_reward': 31.064281609580956, 'gpt_reward': 1670.9854108252434, 'gt_reward': 2009.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'pole_balance_reward': 1640.0253400049326, 'cart_movement_reward': 29.966859530287664, 'gpt_reward': 1669.9921995352236, 'gt_reward': 2009.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'pole_balance_reward': 1639.4324374582593, 'cart_movement_reward': 32.042492154396456, 'gpt_reward': 1671.4749296126488, 'gt_reward': 2009.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'pole_balance_reward': 1639.6022049932633, 'cart_movement_reward': 32.154236792692124, 'gpt_reward': 1671.7564417859548, 'gt_reward': 2009.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'pole_balance_reward': 1639.950828281733, 'cart_movement_reward': 32.62469268510004, 'gpt_reward': 1672.5755209668314, 'gt_reward': 2000.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'pole_balance_reward': 1635.5463537938965, 'cart_movement_reward': 65.45790629739874, 'gpt_reward': 1701.0042600912948, 'gt_reward': 2009.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'pole_balance_reward': 1635.5363591614675, 'cart_movement_reward': 64.43346591029035, 'gpt_reward': 1699.9698250717558, 'gt_reward': 2009.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'pole_balance_reward': 1635.9519298126245, 'cart_movement_reward': 60.720100759079195, 'gpt_reward': 1696.672030571703, 'gt_reward': 2009.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'pole_balance_reward': 1635.3580318151671, 'cart_movement_reward': 64.98346963749295, 'gpt_reward': 1700.3415014526624, 'gt_reward': 2009.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'pole_balance_reward': 1636.474583062617, 'cart_movement_reward': 53.78918454594614, 'gpt_reward': 1690.2637676085667, 'gt_reward': 2009.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'pole_balance_reward': 1636.6781776463752, 'cart_movement_reward': 49.155897527858514, 'gpt_reward': 1685.8340751742392, 'gt_reward': 2009.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'pole_balance_reward': 1636.8956866037158, 'cart_movement_reward': 46.55362779731792, 'gpt_reward': 1683.4493144010344, 'gt_reward': 2009.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'pole_balance_reward': 1636.7704054091794, 'cart_movement_reward': 47.25339616581678, 'gpt_reward': 1684.0238015749953, 'gt_reward': 2009.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'pole_balance_reward': 1637.1005904893454, 'cart_movement_reward': 46.79416547636466, 'gpt_reward': 1683.8947559657138, 'gt_reward': 2009.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'pole_balance_reward': 1637.2497315785438, 'cart_movement_reward': 43.156515513127694, 'gpt_reward': 1680.406247091673, 'gt_reward': 2009.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'pole_balance_reward': 1638.0897062046474, 'cart_movement_reward': 38.49994990272335, 'gpt_reward': 1676.589656107375, 'gt_reward': 2009.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'pole_balance_reward': 1637.9826455486752, 'cart_movement_reward': 41.29995616731478, 'gpt_reward': 1679.2826017159882, 'gt_reward': 2009.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'pole_balance_reward': 1638.0311269238184, 'cart_movement_reward': 41.36210317866207, 'gpt_reward': 1679.3932301024818, 'gt_reward': 2009.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'pole_balance_reward': 1637.8501651071074, 'cart_movement_reward': 41.35745555370052, 'gpt_reward': 1679.2076206608097, 'gt_reward': 2009.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'pole_balance_reward': 1638.1641484060967, 'cart_movement_reward': 36.93919786150055, 'gpt_reward': 1675.1033462675991, 'gt_reward': 2009.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'pole_balance_reward': 1632.164491115121, 'cart_movement_reward': 58.02915293322054, 'gpt_reward': 1690.1936440483457, 'gt_reward': 2009.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'pole_balance_reward': 1634.3832001052417, 'cart_movement_reward': 53.0647047655935, 'gpt_reward': 1687.4479048708317, 'gt_reward': 2009.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'pole_balance_reward': 1634.6520510527569, 'cart_movement_reward': 50.73968360359309, 'gpt_reward': 1685.391734656346, 'gt_reward': 2009.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'pole_balance_reward': 1633.611156821474, 'cart_movement_reward': 56.385126287977975, 'gpt_reward': 1689.9962831094506, 'gt_reward': 2009.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'pole_balance_reward': 1632.7036001431663, 'cart_movement_reward': 58.27961092151406, 'gpt_reward': 1690.9832110646792, 'gt_reward': 2009.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'pole_balance_reward': 1586.785770931852, 'cart_movement_reward': 195.82995938612132, 'gpt_reward': 1782.6157303179757, 'gt_reward': 2657.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'pole_balance_reward': 1588.1817762585931, 'cart_movement_reward': 182.6875379700003, 'gpt_reward': 1770.8693142285874, 'gt_reward': 2657.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'pole_balance_reward': 1586.7733573975715, 'cart_movement_reward': 193.54972351879562, 'gpt_reward': 1780.3230809163626, 'gt_reward': 2657.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'pole_balance_reward': 1583.463762609598, 'cart_movement_reward': 200.03045778696253, 'gpt_reward': 1783.494220396561, 'gt_reward': 2765.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'pole_balance_reward': 1584.3140578730383, 'cart_movement_reward': 205.6103175315437, 'gpt_reward': 1789.9243754045851, 'gt_reward': 2765.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'pole_balance_reward': 1041.0295063407398, 'cart_movement_reward': 275.1891260469924, 'gpt_reward': 1316.2186323877354, 'gt_reward': 2019.0, 'episode_length': 1362.0}
+Episode 2 finished with reward: {'pole_balance_reward': 1534.503784809463, 'cart_movement_reward': 396.8459105501585, 'gpt_reward': 1931.3496953596239, 'gt_reward': 2873.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'pole_balance_reward': 744.2392750357986, 'cart_movement_reward': 175.27549928556812, 'gpt_reward': 919.5147743213678, 'gt_reward': 1411.0, 'episode_length': 970.0}
+Episode 4 finished with reward: {'pole_balance_reward': 1437.5861919267816, 'cart_movement_reward': 382.80360577182483, 'gpt_reward': 1820.3897976986086, 'gt_reward': 2749.0, 'episode_length': 1876.0}
+Episode 5 finished with reward: {'pole_balance_reward': 1533.8268403648167, 'cart_movement_reward': 394.47955778783506, 'gpt_reward': 1928.3063981526493, 'gt_reward': 2873.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'pole_balance_reward': 371.85768235053763, 'cart_movement_reward': 97.72165749738846, 'gpt_reward': 469.57933984792635, 'gt_reward': 724.0, 'episode_length': 499.0}
+Episode 2 finished with reward: {'pole_balance_reward': 636.6155358058683, 'cart_movement_reward': 216.26582759921652, 'gpt_reward': 852.881363405085, 'gt_reward': 1296.0, 'episode_length': 855.0}
+Episode 3 finished with reward: {'pole_balance_reward': 685.9435224875059, 'cart_movement_reward': 201.81814177362455, 'gpt_reward': 887.7616642611313, 'gt_reward': 1356.0, 'episode_length': 915.0}
+Episode 4 finished with reward: {'pole_balance_reward': 499.9010831126438, 'cart_movement_reward': 172.65647321188533, 'gpt_reward': 672.5575563245296, 'gt_reward': 1007.0, 'episode_length': 674.0}
+Episode 5 finished with reward: {'pole_balance_reward': 404.75230008270245, 'cart_movement_reward': 100.24885211359131, 'gpt_reward': 505.0011521962932, 'gt_reward': 765.0, 'episode_length': 540.0}
+Episode 1 finished with reward: {'pole_balance_reward': 1520.6252889867617, 'cart_movement_reward': 409.2771158519225, 'gpt_reward': 1929.902404838679, 'gt_reward': 2981.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'pole_balance_reward': 1523.666268613194, 'cart_movement_reward': 396.267068858275, 'gpt_reward': 1919.93333747147, 'gt_reward': 2981.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'pole_balance_reward': 1507.6055792741747, 'cart_movement_reward': 493.5310187770984, 'gpt_reward': 2001.136598051275, 'gt_reward': 3089.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'pole_balance_reward': 759.8890347417653, 'cart_movement_reward': 256.5279914581553, 'gpt_reward': 1016.4170261999201, 'gt_reward': 1568.0, 'episode_length': 1019.0}
+Episode 5 finished with reward: {'pole_balance_reward': 947.01745469204, 'cart_movement_reward': 308.3048798384223, 'gpt_reward': 1255.322334530462, 'gt_reward': 1927.0, 'episode_length': 1270.0}
+Episode 1 finished with reward: {'pole_balance_reward': 1565.4091750505816, 'cart_movement_reward': 280.1093492956152, 'gpt_reward': 1845.5185243461988, 'gt_reward': 2981.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'pole_balance_reward': 1567.9290119957902, 'cart_movement_reward': 269.55786124496996, 'gpt_reward': 1837.486873240761, 'gt_reward': 2981.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'pole_balance_reward': 1561.7923404504527, 'cart_movement_reward': 296.2962024478829, 'gpt_reward': 1858.0885428983365, 'gt_reward': 2981.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'pole_balance_reward': 1560.6318527488477, 'cart_movement_reward': 297.9682745993875, 'gpt_reward': 1858.6001273482298, 'gt_reward': 2981.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'pole_balance_reward': 1564.2248293499322, 'cart_movement_reward': 293.5790995393249, 'gpt_reward': 1857.8039288892578, 'gt_reward': 2981.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'pole_balance_reward': 937.5389464789324, 'cart_movement_reward': 268.63975058586414, 'gpt_reward': 1206.1786970647945, 'gt_reward': 1880.0, 'episode_length': 1223.0}
+Episode 2 finished with reward: {'pole_balance_reward': 1336.5612378255987, 'cart_movement_reward': 449.8205445403859, 'gpt_reward': 1786.3817823659836, 'gt_reward': 2628.0, 'episode_length': 1755.0}
+Episode 3 finished with reward: {'pole_balance_reward': 835.9697299855786, 'cart_movement_reward': 241.58024645543256, 'gpt_reward': 1077.5499764410097, 'gt_reward': 1642.0, 'episode_length': 1093.0}
+Episode 4 finished with reward: {'pole_balance_reward': 945.1266559301035, 'cart_movement_reward': 339.20893027907505, 'gpt_reward': 1284.335586209181, 'gt_reward': 1903.0, 'episode_length': 1246.0}
+Episode 5 finished with reward: {'pole_balance_reward': 649.0289875479672, 'cart_movement_reward': 197.018521142883, 'gpt_reward': 846.0475086908503, 'gt_reward': 1292.0, 'episode_length': 851.0}
+Episode 1 finished with reward: {'pole_balance_reward': 1218.3175457630236, 'cart_movement_reward': 423.8354991969577, 'gpt_reward': 1642.1530449599777, 'gt_reward': 2489.0, 'episode_length': 1616.0}
+Episode 2 finished with reward: {'pole_balance_reward': 658.3755969851195, 'cart_movement_reward': 214.18616089697161, 'gpt_reward': 872.5617578820902, 'gt_reward': 1320.0, 'episode_length': 879.0}
+Episode 3 finished with reward: {'pole_balance_reward': 930.2431418682627, 'cart_movement_reward': 321.98175156532267, 'gpt_reward': 1252.2248934335846, 'gt_reward': 1890.0, 'episode_length': 1233.0}
+Episode 4 finished with reward: {'pole_balance_reward': 634.4171487062708, 'cart_movement_reward': 199.98466603965443, 'gpt_reward': 834.4018147459263, 'gt_reward': 1282.0, 'episode_length': 841.0}
+Episode 5 finished with reward: {'pole_balance_reward': 639.2359899001943, 'cart_movement_reward': 211.50872986209967, 'gpt_reward': 850.7447197622945, 'gt_reward': 1294.0, 'episode_length': 853.0}
+Episode 1 finished with reward: {'pole_balance_reward': 944.5453609043333, 'cart_movement_reward': 413.36629482156985, 'gpt_reward': 1357.9116557259035, 'gt_reward': 2056.0, 'episode_length': 1291.0}
+Episode 2 finished with reward: {'pole_balance_reward': 457.6003072027601, 'cart_movement_reward': 139.11305986035845, 'gpt_reward': 596.7133670631189, 'gt_reward': 950.0, 'episode_length': 617.0}
+Episode 3 finished with reward: {'pole_balance_reward': 1003.230908510609, 'cart_movement_reward': 356.1749247660022, 'gpt_reward': 1359.40583327661, 'gt_reward': 2103.0, 'episode_length': 1338.0}
+Episode 4 finished with reward: {'pole_balance_reward': 584.0269548948352, 'cart_movement_reward': 226.8036396315876, 'gpt_reward': 810.8305945264243, 'gt_reward': 1230.0, 'episode_length': 789.0}
+Episode 5 finished with reward: {'pole_balance_reward': 591.495370330216, 'cart_movement_reward': 196.78343223596022, 'gpt_reward': 788.2788025661758, 'gt_reward': 1233.0, 'episode_length': 792.0}
+Episode 1 finished with reward: {'pole_balance_reward': 1532.0712229766123, 'cart_movement_reward': 369.2504628585053, 'gpt_reward': 1901.3216858351173, 'gt_reward': 3197.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'pole_balance_reward': 1529.1454925469227, 'cart_movement_reward': 359.23075793784653, 'gpt_reward': 1888.376250484768, 'gt_reward': 3197.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'pole_balance_reward': 1524.9093829961635, 'cart_movement_reward': 377.0557001464968, 'gpt_reward': 1901.9650831426557, 'gt_reward': 2873.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'pole_balance_reward': 1525.0141863444967, 'cart_movement_reward': 369.4947500556473, 'gpt_reward': 1894.5089364001428, 'gt_reward': 2981.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'pole_balance_reward': 1529.3841756177485, 'cart_movement_reward': 338.3933738040564, 'gpt_reward': 1867.7775494218056, 'gt_reward': 2981.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'pole_balance_reward': 1503.5047099165654, 'cart_movement_reward': 378.29659780730265, 'gpt_reward': 1881.801307723861, 'gt_reward': 2765.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'pole_balance_reward': 729.0953132833162, 'cart_movement_reward': 309.6547625576075, 'gpt_reward': 1038.7500758409258, 'gt_reward': 1655.0, 'episode_length': 998.0}
+Episode 3 finished with reward: {'pole_balance_reward': 1507.651876160546, 'cart_movement_reward': 383.28759990099144, 'gpt_reward': 1890.9394760615369, 'gt_reward': 2981.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'pole_balance_reward': 1204.0342648364867, 'cart_movement_reward': 375.33204369834084, 'gpt_reward': 1579.3663085348257, 'gt_reward': 2487.0, 'episode_length': 1614.0}
+Episode 5 finished with reward: {'pole_balance_reward': 1504.846666830359, 'cart_movement_reward': 402.9061799047072, 'gpt_reward': 1907.7528467350646, 'gt_reward': 2981.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'pole_balance_reward': 1485.6178071324618, 'cart_movement_reward': 524.765999259548, 'gpt_reward': 2010.383806392011, 'gt_reward': 3197.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'pole_balance_reward': 1501.0580773672746, 'cart_movement_reward': 435.04231152532884, 'gpt_reward': 1936.1003888926055, 'gt_reward': 2981.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'pole_balance_reward': 1532.4044190936668, 'cart_movement_reward': 221.05656353112772, 'gpt_reward': 1753.4609826247915, 'gt_reward': 2117.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'pole_balance_reward': 1452.9976762823221, 'cart_movement_reward': 453.1515118875026, 'gpt_reward': 1906.1491881698223, 'gt_reward': 2824.0, 'episode_length': 1951.0}
+Episode 5 finished with reward: {'pole_balance_reward': 1507.0953526763315, 'cart_movement_reward': 373.4037716628549, 'gpt_reward': 1880.4991243391871, 'gt_reward': 2765.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'pole_balance_reward': 1504.6030215080814, 'cart_movement_reward': 366.94115476695055, 'gpt_reward': 1871.5441762750334, 'gt_reward': 3089.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'pole_balance_reward': 1503.8638167790514, 'cart_movement_reward': 385.61576832505204, 'gpt_reward': 1889.4795851040972, 'gt_reward': 3197.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'pole_balance_reward': 1503.1109303440776, 'cart_movement_reward': 414.86126560471024, 'gpt_reward': 1917.9721959487867, 'gt_reward': 3413.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'pole_balance_reward': 1499.008099642136, 'cart_movement_reward': 418.426786475196, 'gpt_reward': 1917.434886117335, 'gt_reward': 3197.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'pole_balance_reward': 1502.8243227795697, 'cart_movement_reward': 406.12219179097144, 'gpt_reward': 1908.9465145705465, 'gt_reward': 3413.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'pole_balance_reward': 1494.409721240232, 'cart_movement_reward': 426.52351088190153, 'gpt_reward': 1920.9332321221398, 'gt_reward': 3521.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'pole_balance_reward': 1494.8048728338085, 'cart_movement_reward': 428.6929442615911, 'gpt_reward': 1923.4978170953934, 'gt_reward': 3521.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'pole_balance_reward': 1490.9416434529192, 'cart_movement_reward': 428.3552091240544, 'gpt_reward': 1919.296852576973, 'gt_reward': 3521.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'pole_balance_reward': 1490.4267473404354, 'cart_movement_reward': 436.460123606227, 'gpt_reward': 1926.886870946658, 'gt_reward': 3521.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'pole_balance_reward': 1502.2624284723188, 'cart_movement_reward': 406.4581280440762, 'gpt_reward': 1908.7205565163927, 'gt_reward': 3521.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'pole_balance_reward': 1492.5856677759034, 'cart_movement_reward': 414.50067335376036, 'gpt_reward': 1907.0863411296625, 'gt_reward': 3413.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'pole_balance_reward': 1484.4742967267139, 'cart_movement_reward': 416.1092171413443, 'gpt_reward': 1900.583513868057, 'gt_reward': 3305.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'pole_balance_reward': 1487.1839090553392, 'cart_movement_reward': 413.2870291057872, 'gpt_reward': 1900.4709381611312, 'gt_reward': 3413.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'pole_balance_reward': 1494.1567832377889, 'cart_movement_reward': 383.9611455248659, 'gpt_reward': 1878.1179287626549, 'gt_reward': 3089.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'pole_balance_reward': 1495.51494125263, 'cart_movement_reward': 371.4851393228885, 'gpt_reward': 1867.000080575519, 'gt_reward': 2981.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'pole_balance_reward': 1478.6721514188314, 'cart_movement_reward': 427.6636749305746, 'gpt_reward': 1906.3358263494051, 'gt_reward': 3413.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'pole_balance_reward': 1500.7984304219838, 'cart_movement_reward': 370.802220711888, 'gpt_reward': 1871.6006511338744, 'gt_reward': 3305.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'pole_balance_reward': 1493.7028569434372, 'cart_movement_reward': 380.8282910879521, 'gpt_reward': 1874.5311480313853, 'gt_reward': 3089.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'pole_balance_reward': 1545.4340635044537, 'cart_movement_reward': 212.30928054545404, 'gpt_reward': 1757.743344049909, 'gt_reward': 2225.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'pole_balance_reward': 1534.475511166336, 'cart_movement_reward': 254.86056785594468, 'gpt_reward': 1789.336079022282, 'gt_reward': 2549.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'pole_balance_reward': 1453.093966056077, 'cart_movement_reward': 528.0877518730423, 'gpt_reward': 1981.1817179291195, 'gt_reward': 3629.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'pole_balance_reward': 1464.3183292524666, 'cart_movement_reward': 475.59613757237753, 'gpt_reward': 1939.914466824845, 'gt_reward': 3629.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'pole_balance_reward': 1452.7163143617845, 'cart_movement_reward': 522.4045454833245, 'gpt_reward': 1975.120859845111, 'gt_reward': 3629.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'pole_balance_reward': 1444.7206600401285, 'cart_movement_reward': 567.9565943930007, 'gpt_reward': 2012.6772544331304, 'gt_reward': 3620.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'pole_balance_reward': 1451.0488146480363, 'cart_movement_reward': 533.5616606786781, 'gpt_reward': 1984.610475326714, 'gt_reward': 3521.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'pole_balance_reward': 1445.5797852751593, 'cart_movement_reward': 540.2985623933153, 'gpt_reward': 1985.878347668477, 'gt_reward': 3521.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'pole_balance_reward': 1438.8892693977496, 'cart_movement_reward': 563.872176533847, 'gpt_reward': 2002.7614459315937, 'gt_reward': 3521.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'pole_balance_reward': 1433.9073216565034, 'cart_movement_reward': 578.1926497438408, 'gpt_reward': 2012.0999714003474, 'gt_reward': 3521.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'pole_balance_reward': 1431.278498396275, 'cart_movement_reward': 576.9560143594606, 'gpt_reward': 2008.2345127557378, 'gt_reward': 3521.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'pole_balance_reward': 1447.4388907448586, 'cart_movement_reward': 537.4708375773987, 'gpt_reward': 1984.9097283222568, 'gt_reward': 3521.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'pole_balance_reward': 1417.7352784687894, 'cart_movement_reward': 645.5121960317808, 'gpt_reward': 2063.24747450057, 'gt_reward': 3521.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'pole_balance_reward': 1410.6047661613359, 'cart_movement_reward': 662.5522915735287, 'gpt_reward': 2073.1570577348616, 'gt_reward': 3521.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'pole_balance_reward': 1434.2645311817034, 'cart_movement_reward': 586.3096226470485, 'gpt_reward': 2020.574153828755, 'gt_reward': 3521.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'pole_balance_reward': 1429.8741993237113, 'cart_movement_reward': 593.5774044301975, 'gpt_reward': 2023.45160375391, 'gt_reward': 3521.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'pole_balance_reward': 1429.214196469862, 'cart_movement_reward': 585.4939711349951, 'gpt_reward': 2014.7081676048545, 'gt_reward': 3521.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'pole_balance_reward': 1406.9361317552818, 'cart_movement_reward': 669.5596995460194, 'gpt_reward': 2076.4958313012985, 'gt_reward': 3521.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'pole_balance_reward': 1420.5169981340307, 'cart_movement_reward': 609.8651174704219, 'gpt_reward': 2030.3821156044507, 'gt_reward': 3521.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'pole_balance_reward': 1409.001577972167, 'cart_movement_reward': 668.4535500101917, 'gpt_reward': 2077.455127982356, 'gt_reward': 3521.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'pole_balance_reward': 1411.6534726519967, 'cart_movement_reward': 649.6944962962402, 'gpt_reward': 2061.3479689482397, 'gt_reward': 3521.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'pole_balance_reward': 1426.9061384269255, 'cart_movement_reward': 597.742327094839, 'gpt_reward': 2024.648465521764, 'gt_reward': 3521.0, 'episode_length': 2000.0}
+Episode 1 finished with reward: {'pole_balance_reward': 1433.3645649279028, 'cart_movement_reward': 570.4344154500615, 'gpt_reward': 2003.7989803779708, 'gt_reward': 3305.0, 'episode_length': 2000.0}
+Episode 2 finished with reward: {'pole_balance_reward': 1420.9770987366014, 'cart_movement_reward': 623.7095714510848, 'gpt_reward': 2044.6866701876888, 'gt_reward': 3521.0, 'episode_length': 2000.0}
+Episode 3 finished with reward: {'pole_balance_reward': 1464.1972586157297, 'cart_movement_reward': 491.1306047027946, 'gpt_reward': 1955.32786331853, 'gt_reward': 3089.0, 'episode_length': 2000.0}
+Episode 4 finished with reward: {'pole_balance_reward': 1425.0868955180429, 'cart_movement_reward': 590.9511169131594, 'gpt_reward': 2016.0380124312019, 'gt_reward': 3413.0, 'episode_length': 2000.0}
+Episode 5 finished with reward: {'pole_balance_reward': 1421.7523377478844, 'cart_movement_reward': 618.0452539910721, 'gpt_reward': 2039.797591738957, 'gt_reward': 3413.0, 'episode_length': 2000.0}
+Model saved!
+Logs saved!
+Visualizing a few frames .
+/opt/miniconda3/envs/drl/lib/python3.11/site-packages/gymnasium/envs/classic_control/cartpole.py:214: UserWarning: [33mWARN: You are calling 'step()' even though this environment has already returned terminated = True. You should always call 'reset()' once you receive 'terminated = True' -- any further steps are undefined behavior.[0m
+  logger.warn(
+Recording a video...
+/opt/miniconda3/envs/drl/lib/python3.11/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /Users/chunhaozou/Desktop/drl/outputs/eureka/2024-12-08_20-06-38/videos folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+/opt/miniconda3/envs/drl/lib/python3.11/site-packages/gymnasium/envs/classic_control/cartpole.py:214: UserWarning: [33mWARN: You are calling 'step()' even though this environment has already returned terminated = True. You should always call 'reset()' once you receive 'terminated = True' -- any further steps are undefined behavior.[0m
+  logger.warn(
+Video recorded. Check the ./videos directory.
