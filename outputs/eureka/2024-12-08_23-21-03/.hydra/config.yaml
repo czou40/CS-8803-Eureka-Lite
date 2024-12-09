@@ -1,0 +1,16 @@
+model: gpt-4o
+temperature: 1.0
+suffix: GPT
+iteration: 5
+sample: 2
+num_eval: 5
+use_screenshots: false
+total_timesteps: 100000
+log_timestep_freq: 10000
+use_wandb: false
+wandb_username: ''
+wandb_project: ''
+env:
+  task: cartpole_original
+  env_name: cartpole_original
+  description: to balance a pole on a cart so that the pole stays upright

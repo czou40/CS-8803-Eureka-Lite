@@ -1,0 +1,60 @@
+/Users/chunhaozou/Desktop/drl/envs/cartpole_original_train_eval.py:7: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  from pkg_resources import parse_requirements
+name: __main__
+Using cpu device
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+/opt/miniconda3/envs/drl/lib/python3.11/site-packages/gymnasium/envs/classic_control/cartpole.py:214: UserWarning: [33mWARN: You are calling 'step()' even though this environment has already returned terminated = True. You should always call 'reset()' once you receive 'terminated = True' -- any further steps are undefined behavior.[0m
+  logger.warn(
+Episode 1 finished with reward: {'angle_stability_reward': 262.0227392817363, 'position_stability_reward': 250.99535254130896, 'gpt_reward': 51.30180918230449, 'gt_reward': 257.0, 'episode_length': 265.0}
+Episode 2 finished with reward: {'angle_stability_reward': 277.26683650209844, 'position_stability_reward': 266.47417144309276, 'gpt_reward': 54.374100794519144, 'gt_reward': 274.0, 'episode_length': 280.0}
+Episode 3 finished with reward: {'angle_stability_reward': 271.94090920124404, 'position_stability_reward': 257.4637326395568, 'gpt_reward': 52.94046418408011, 'gt_reward': 274.0, 'episode_length': 274.0}
+Episode 4 finished with reward: {'angle_stability_reward': 331.03581549827334, 'position_stability_reward': 315.9816987602927, 'gpt_reward': 64.70175142585657, 'gt_reward': 333.0, 'episode_length': 333.0}
+Episode 5 finished with reward: {'angle_stability_reward': 499.5673989539323, 'position_stability_reward': 497.56469800571386, 'gpt_reward': 99.71320969596461, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 1 finished with reward: {'angle_stability_reward': 499.98032309442766, 'position_stability_reward': 499.59535831392316, 'gpt_reward': 99.95756814083502, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 2 finished with reward: {'angle_stability_reward': 499.98625312192456, 'position_stability_reward': 498.93864769172245, 'gpt_reward': 99.8924900813647, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 3 finished with reward: {'angle_stability_reward': 499.97429031414583, 'position_stability_reward': 498.80048636069466, 'gpt_reward': 99.87747766748423, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 4 finished with reward: {'angle_stability_reward': 499.98460976344916, 'position_stability_reward': 498.4755521682602, 'gpt_reward': 99.84601619317108, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 5 finished with reward: {'angle_stability_reward': 499.98251380132564, 'position_stability_reward': 499.78319142755447, 'gpt_reward': 99.9765705228881, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 1 finished with reward: {'angle_stability_reward': 499.9798642469925, 'position_stability_reward': 499.55236180499395, 'gpt_reward': 99.95322260519865, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 2 finished with reward: {'angle_stability_reward': 499.98924866872545, 'position_stability_reward': 499.5048451171289, 'gpt_reward': 99.94940937858549, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 3 finished with reward: {'angle_stability_reward': 499.9513082679929, 'position_stability_reward': 499.6066755108342, 'gpt_reward': 99.95579837788277, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 4 finished with reward: {'angle_stability_reward': 499.96483676926425, 'position_stability_reward': 499.8028869439763, 'gpt_reward': 99.9767723713241, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 5 finished with reward: {'angle_stability_reward': 499.97919291650516, 'position_stability_reward': 499.8785825982993, 'gpt_reward': 99.98577755148048, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 1 finished with reward: {'angle_stability_reward': 499.97627796842687, 'position_stability_reward': 499.99446308980424, 'gpt_reward': 99.99707410582312, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 2 finished with reward: {'angle_stability_reward': 499.93844759293955, 'position_stability_reward': 498.8867774046717, 'gpt_reward': 99.88252249976087, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 3 finished with reward: {'angle_stability_reward': 499.9687550377816, 'position_stability_reward': 499.9045875977901, 'gpt_reward': 99.98733426355717, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 4 finished with reward: {'angle_stability_reward': 499.96963503304755, 'position_stability_reward': 499.9819636142943, 'gpt_reward': 99.9951598647342, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 5 finished with reward: {'angle_stability_reward': 499.95283937204044, 'position_stability_reward': 499.05408120182426, 'gpt_reward': 99.90069205738651, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 1 finished with reward: {'angle_stability_reward': 499.9636522637136, 'position_stability_reward': 499.961532795657, 'gpt_reward': 99.99251850593708, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 2 finished with reward: {'angle_stability_reward': 499.98399081716, 'position_stability_reward': 499.80297699156523, 'gpt_reward': 99.97869678087255, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 3 finished with reward: {'angle_stability_reward': 499.96197354408037, 'position_stability_reward': 498.82686261128686, 'gpt_reward': 99.8788836155368, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 4 finished with reward: {'angle_stability_reward': 499.96369504011557, 'position_stability_reward': 499.79937433696006, 'gpt_reward': 99.97630693770755, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 5 finished with reward: {'angle_stability_reward': 499.96347999699316, 'position_stability_reward': 498.6052685601625, 'gpt_reward': 99.85687485571553, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 1 finished with reward: {'angle_stability_reward': 499.9864707272774, 'position_stability_reward': 499.89126875434374, 'gpt_reward': 99.9877739481622, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 2 finished with reward: {'angle_stability_reward': 499.96801379721126, 'position_stability_reward': 499.40398497864004, 'gpt_reward': 99.93719987758503, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 3 finished with reward: {'angle_stability_reward': 499.9645526364157, 'position_stability_reward': 499.8782667073206, 'gpt_reward': 99.98428193437374, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 4 finished with reward: {'angle_stability_reward': 499.97727462000637, 'position_stability_reward': 499.6861888436431, 'gpt_reward': 99.96634634636489, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 5 finished with reward: {'angle_stability_reward': 499.97317621086415, 'position_stability_reward': 499.7013632630437, 'gpt_reward': 99.96745394739078, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 1 finished with reward: {'angle_stability_reward': 499.9661006917383, 'position_stability_reward': 499.8482271325473, 'gpt_reward': 99.98143278242858, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 2 finished with reward: {'angle_stability_reward': 499.98158055537, 'position_stability_reward': 499.7284638005724, 'gpt_reward': 99.97100443559411, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 3 finished with reward: {'angle_stability_reward': 499.9872743357189, 'position_stability_reward': 499.91284750615716, 'gpt_reward': 99.9900121841875, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 4 finished with reward: {'angle_stability_reward': 499.98783858640667, 'position_stability_reward': 499.9742914221788, 'gpt_reward': 99.99621300085852, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 5 finished with reward: {'angle_stability_reward': 499.9885992097708, 'position_stability_reward': 499.91541263556996, 'gpt_reward': 99.99040118453395, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 1 finished with reward: {'angle_stability_reward': 499.9803960899383, 'position_stability_reward': 499.98583748693807, 'gpt_reward': 99.99662335768741, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 2 finished with reward: {'angle_stability_reward': 499.95983330248447, 'position_stability_reward': 499.8962211734376, 'gpt_reward': 99.98560544759222, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 3 finished with reward: {'angle_stability_reward': 499.97691268575767, 'position_stability_reward': 499.9116611698696, 'gpt_reward': 99.98885738556275, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 4 finished with reward: {'angle_stability_reward': 499.98605045245887, 'position_stability_reward': 499.9779414315519, 'gpt_reward': 99.99639918840109, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 5 finished with reward: {'angle_stability_reward': 499.98498099588386, 'position_stability_reward': 499.9768382854437, 'gpt_reward': 99.99618192813267, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 1 finished with reward: {'angle_stability_reward': 499.9697993252146, 'position_stability_reward': 499.9264949622838, 'gpt_reward': 99.98962942874984, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 2 finished with reward: {'angle_stability_reward': 499.9753764404028, 'position_stability_reward': 499.9382182747135, 'gpt_reward': 99.99135947151166, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 3 finished with reward: {'angle_stability_reward': 499.9802124995192, 'position_stability_reward': 499.93722919655204, 'gpt_reward': 99.99174416960723, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 4 finished with reward: {'angle_stability_reward': 499.9841684171144, 'position_stability_reward': 499.9927932651643, 'gpt_reward': 99.99769616822786, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 5 finished with reward: {'angle_stability_reward': 499.9881731667833, 'position_stability_reward': 499.99840584742503, 'gpt_reward': 99.9986579014208, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 1 finished with reward: {'angle_stability_reward': 499.98522171033704, 'position_stability_reward': 499.98947914586995, 'gpt_reward': 99.99747008562076, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 2 finished with reward: {'angle_stability_reward': 499.9703915261175, 'position_stability_reward': 499.96827684582365, 'gpt_reward': 99.99386683719402, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 3 finished with reward: {'angle_stability_reward': 499.97522552987635, 'position_stability_reward': 499.99068068326955, 'gpt_reward': 99.99659062131452, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 4 finished with reward: {'angle_stability_reward': 499.9803509702884, 'position_stability_reward': 499.9963029436177, 'gpt_reward': 99.99766539139051, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 5 finished with reward: {'angle_stability_reward': 499.969910102958, 'position_stability_reward': 499.9791680477142, 'gpt_reward': 99.99490781506712, 'gt_reward': 500.0, 'episode_length': 500.0}
+Model saved!
+Logs saved!

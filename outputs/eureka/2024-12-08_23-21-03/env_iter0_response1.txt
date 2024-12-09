@@ -1,0 +1,60 @@
+/Users/chunhaozou/Desktop/drl/envs/cartpole_original_train_eval.py:7: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  from pkg_resources import parse_requirements
+name: __main__
+Using cpu device
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+/opt/miniconda3/envs/drl/lib/python3.11/site-packages/gymnasium/envs/classic_control/cartpole.py:214: UserWarning: [33mWARN: You are calling 'step()' even though this environment has already returned terminated = True. You should always call 'reset()' once you receive 'terminated = True' -- any further steps are undefined behavior.[0m
+  logger.warn(
+Episode 1 finished with reward: {'angle_reward': 225.65204634461924, 'position_reward': 187.01376538889596, 'velocity_reward': 264.3951354154332, 'gpt_reward': 225.68698238298273, 'gt_reward': 276.0, 'episode_length': 276.0}
+Episode 2 finished with reward: {'angle_reward': 402.4851490119641, 'position_reward': 367.290077608987, 'velocity_reward': 442.84361510209385, 'gpt_reward': 404.2062805743482, 'gt_reward': 456.0, 'episode_length': 456.0}
+Episode 3 finished with reward: {'angle_reward': 373.5013640885256, 'position_reward': 337.75518315529905, 'velocity_reward': 413.8440698568741, 'gpt_reward': 375.0335390335659, 'gt_reward': 427.0, 'episode_length': 427.0}
+Episode 4 finished with reward: {'angle_reward': 499.13316732775974, 'position_reward': 498.0723526135375, 'velocity_reward': 496.95946821641985, 'gpt_reward': 498.0549960525725, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 5 finished with reward: {'angle_reward': 498.8408593743482, 'position_reward': 480.4380305726948, 'velocity_reward': 496.9971146824135, 'gpt_reward': 492.09200154315204, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 1 finished with reward: {'angle_reward': 498.7885417120703, 'position_reward': 494.0217297904165, 'velocity_reward': 497.1229106231477, 'gpt_reward': 496.6443940418786, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 2 finished with reward: {'angle_reward': 498.6514765229526, 'position_reward': 495.9776421921833, 'velocity_reward': 497.0878996858214, 'gpt_reward': 497.23900613365254, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 3 finished with reward: {'angle_reward': 497.5767825757531, 'position_reward': 409.4348105141787, 'velocity_reward': 496.14923110283775, 'gpt_reward': 467.7202747309232, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 4 finished with reward: {'angle_reward': 499.4486076032844, 'position_reward': 499.9798563577229, 'velocity_reward': 497.1451087819234, 'gpt_reward': 498.85785758097654, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 5 finished with reward: {'angle_reward': 497.8853579213814, 'position_reward': 272.65056274646474, 'velocity_reward': 495.2848686608248, 'gpt_reward': 421.940263109557, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 1 finished with reward: {'angle_reward': 498.0510379732042, 'position_reward': 409.48141251490205, 'velocity_reward': 496.98785086179083, 'gpt_reward': 468.17343378329866, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 2 finished with reward: {'angle_reward': 499.4831369362629, 'position_reward': 481.8124915499701, 'velocity_reward': 496.8963290746658, 'gpt_reward': 492.7306525202998, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 3 finished with reward: {'angle_reward': 498.79459657285844, 'position_reward': 495.6503321917543, 'velocity_reward': 497.032250215759, 'gpt_reward': 497.1590596601236, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 4 finished with reward: {'angle_reward': 498.5093420353353, 'position_reward': 497.5473586988714, 'velocity_reward': 497.1524884792225, 'gpt_reward': 497.736396404476, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 5 finished with reward: {'angle_reward': 499.1104728471385, 'position_reward': 490.73364629147454, 'velocity_reward': 496.9373223549774, 'gpt_reward': 495.59381383119677, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 1 finished with reward: {'angle_reward': 499.51157062845533, 'position_reward': 498.8601408590969, 'velocity_reward': 497.08230517769607, 'gpt_reward': 498.48467222174963, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 2 finished with reward: {'angle_reward': 498.64119001887263, 'position_reward': 495.62379010780586, 'velocity_reward': 497.0571816332962, 'gpt_reward': 497.1073872533245, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 3 finished with reward: {'angle_reward': 499.53974055295566, 'position_reward': 494.5496051747871, 'velocity_reward': 496.93940608918786, 'gpt_reward': 497.0095839389759, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 4 finished with reward: {'angle_reward': 499.51890019974536, 'position_reward': 499.77355115601875, 'velocity_reward': 497.0094595292776, 'gpt_reward': 498.76730362834735, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 5 finished with reward: {'angle_reward': 499.1147385445794, 'position_reward': 499.82027597135124, 'velocity_reward': 496.96636997508324, 'gpt_reward': 498.6337948303388, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 1 finished with reward: {'angle_reward': 499.35408727010974, 'position_reward': 499.4116034620935, 'velocity_reward': 496.9537008602081, 'gpt_reward': 498.573130530804, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 2 finished with reward: {'angle_reward': 499.23200818945924, 'position_reward': 499.8093495091195, 'velocity_reward': 496.95141028269643, 'gpt_reward': 498.66425599375856, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 3 finished with reward: {'angle_reward': 499.5249763249975, 'position_reward': 499.7902314913362, 'velocity_reward': 496.9685470731241, 'gpt_reward': 498.76125162981907, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 4 finished with reward: {'angle_reward': 499.55282622712906, 'position_reward': 499.79941172525355, 'velocity_reward': 497.1594538956698, 'gpt_reward': 498.8372306160175, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 5 finished with reward: {'angle_reward': 499.4863779300795, 'position_reward': 499.2005207938016, 'velocity_reward': 497.3169507423041, 'gpt_reward': 498.6679498220619, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 1 finished with reward: {'angle_reward': 499.4898023688252, 'position_reward': 497.3889958184845, 'velocity_reward': 496.9224380022397, 'gpt_reward': 497.93374539651654, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 2 finished with reward: {'angle_reward': 499.4796644999507, 'position_reward': 498.20111677181364, 'velocity_reward': 496.94021205959825, 'gpt_reward': 498.20699777712076, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 3 finished with reward: {'angle_reward': 499.43224460505616, 'position_reward': 499.35354362432884, 'velocity_reward': 497.02888990021984, 'gpt_reward': 498.60489270986835, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 4 finished with reward: {'angle_reward': 499.3547534216645, 'position_reward': 499.52521207344006, 'velocity_reward': 496.891334127531, 'gpt_reward': 498.5904332075453, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 5 finished with reward: {'angle_reward': 499.36674848644924, 'position_reward': 499.2773186333702, 'velocity_reward': 497.0448846357637, 'gpt_reward': 498.56298391852755, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 1 finished with reward: {'angle_reward': 499.46799749037876, 'position_reward': 494.41500488680987, 'velocity_reward': 497.21199747787006, 'gpt_reward': 497.0316666183531, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 2 finished with reward: {'angle_reward': 499.55816375547323, 'position_reward': 498.97936230599635, 'velocity_reward': 497.0104173681408, 'gpt_reward': 498.5159811432027, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 3 finished with reward: {'angle_reward': 499.38058976921224, 'position_reward': 497.23477547020104, 'velocity_reward': 497.00993063390274, 'gpt_reward': 497.8750986244387, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 4 finished with reward: {'angle_reward': 499.53219091247956, 'position_reward': 496.33563103304357, 'velocity_reward': 497.03490210322366, 'gpt_reward': 497.63424134958257, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 5 finished with reward: {'angle_reward': 499.4382529244863, 'position_reward': 498.3484672029896, 'velocity_reward': 496.97965839632286, 'gpt_reward': 498.25545950793236, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 1 finished with reward: {'angle_reward': 499.50526700161, 'position_reward': 499.91302040831533, 'velocity_reward': 496.93712153572807, 'gpt_reward': 498.7851363152181, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 2 finished with reward: {'angle_reward': 499.3511897166083, 'position_reward': 498.5591817612314, 'velocity_reward': 497.12093565896544, 'gpt_reward': 498.34376904560156, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 3 finished with reward: {'angle_reward': 499.39707630919656, 'position_reward': 499.9749271848328, 'velocity_reward': 496.9379011838116, 'gpt_reward': 498.76996822594754, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 4 finished with reward: {'angle_reward': 499.5540042023872, 'position_reward': 499.5644980520499, 'velocity_reward': 496.9865607122022, 'gpt_reward': 498.7016876555461, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 5 finished with reward: {'angle_reward': 499.49176566184434, 'position_reward': 499.92524124649094, 'velocity_reward': 496.8964177490436, 'gpt_reward': 498.77114155245937, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 1 finished with reward: {'angle_reward': 499.469681461325, 'position_reward': 499.88233244584825, 'velocity_reward': 497.16856007129047, 'gpt_reward': 498.8401913261544, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 2 finished with reward: {'angle_reward': 499.3076540182705, 'position_reward': 499.85403526516455, 'velocity_reward': 496.8687695200552, 'gpt_reward': 498.67681960116323, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 3 finished with reward: {'angle_reward': 499.1508526493528, 'position_reward': 499.48897643677157, 'velocity_reward': 496.8526114958936, 'gpt_reward': 498.4974801940054, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 4 finished with reward: {'angle_reward': 499.4721767530032, 'position_reward': 499.1839107237196, 'velocity_reward': 497.16548765361614, 'gpt_reward': 498.607191710113, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 5 finished with reward: {'angle_reward': 499.3023795692032, 'position_reward': 499.46169284216944, 'velocity_reward': 496.8894671932219, 'gpt_reward': 498.55117986819835, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 1 finished with reward: {'angle_reward': 499.4939192909039, 'position_reward': 499.58516848013437, 'velocity_reward': 497.35814861267147, 'gpt_reward': 498.8124121279033, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 2 finished with reward: {'angle_reward': 499.2378828765262, 'position_reward': 499.42999952171607, 'velocity_reward': 497.2158173893146, 'gpt_reward': 498.62789992918545, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 3 finished with reward: {'angle_reward': 499.4959371238067, 'position_reward': 499.886678703781, 'velocity_reward': 496.9059549788647, 'gpt_reward': 498.7628569354845, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 4 finished with reward: {'angle_reward': 499.174861103709, 'position_reward': 499.85643953551164, 'velocity_reward': 496.93418897058405, 'gpt_reward': 498.6551632032686, 'gt_reward': 500.0, 'episode_length': 500.0}
+Episode 5 finished with reward: {'angle_reward': 499.22576413035, 'position_reward': 499.95449678319625, 'velocity_reward': 496.76926841447727, 'gpt_reward': 498.64984310934113, 'gt_reward': 500.0, 'episode_length': 500.0}
+Model saved!
+Logs saved!
